@@ -1,0 +1,54 @@
+.footer {
+  background-color: $color-gray-dark;
+  color: #fff;
+  padding: 5rem 0;
+
+  &__nav {
+    display: flex;
+
+    @include respond(tablet-port) {
+      flex-wrap: wrap;
+    }
+
+    @include respond(phone) {
+      flex-direction: column;
+    }
+  }
+
+  &__header {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  p {
+    margin-bottom: 1.3rem;
+    font-size: 1.6rem;
+  }
+
+  &__link {
+    color: #fff;
+    line-height: 1.2;
+    font-size: 1.6rem;
+  }
+
+  &__group {
+    @include respond(phone) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__group:nth-child(1),
+  &__group:nth-child(2) {
+    flex-basis: 25%;
+  }
+
+  &__group:nth-child(3) {
+    flex-basis: 50%;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-top: 3rem;
+  }
+}

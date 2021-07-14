@@ -1,0 +1,51 @@
+.gray-background {
+  background-color: $color-gray-light;
+}
+
+.pink-background {
+  background-color: $color-primary-light;
+}
+
+.color-white {
+  color: #ffffff;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mr-4 {
+  margin-right: 4rem;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.block-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  box-shadow: inset 0 -0.2rem $color-primary-dark;
+}
+
+hr.wp-block-seperator.is-style-default {
+  outline: none;
+  border: none;
+  height: 3px;
+  background-color: $color-primary;
+}
