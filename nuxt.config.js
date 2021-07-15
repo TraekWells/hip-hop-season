@@ -36,7 +36,15 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/style-resources',
   ],
+
+  styleResources: {
+    scss: [
+      './assets/scss/modules/_mixins.scss',
+      './assets/scss/modules/_varibles.scss',
+    ],
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
