@@ -14,8 +14,10 @@ export default {
       type: String,
       required: true,
     },
-    subtitle: String,
-    artist: String,
+    subtitle: {
+      type: String,
+      required: true,
+    },
   },
 }
 </script>
