@@ -82,7 +82,7 @@
           <nuxt-link to="/lists" class="nav__link">Lists</nuxt-link>
         </li>
         <li class="nav__item">
-          <nuxt-link to="/contact">Contact Me</nuxt-link>
+          <nuxt-link to="/contact" class="nav__link">Contact Me</nuxt-link>
         </li>
         <div class="nav__social">
           <nuxt-link
