@@ -1,5 +1,5 @@
 ---
-title: Five Artists I Need Projects From In 2020
+title: List Two
 featured: true
 image: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Canibus_at_Amager_Bio_4.jpg'
 summary: Here is the excerpt for this post

@@ -8,7 +8,7 @@
     }
   }
 
-  .wp-block-embed-youtube.wp-block-embed.is-type-video.is-provider-youtube.wp-embed-aspect-16-9.wp-has-aspect-ratio {
+  .video-container {
     margin-bottom: 4rem;
     position: relative;
     overflow: hidden;
@@ -22,18 +22,6 @@
       width: 100%;
       top: 0;
       left: 0;
-    }
-  }
-
-  .wp-block-embed__wrapper {
-    position: static;
-  }
-
-  .wp-block-embed-spotify.wp-block-embed.is-type-rich.is-provider-spotify.wp-embed-aspect-9-16.wp-has-aspect-ratio {
-    margin: 4rem 0;
-
-    iframe {
-      width: 100%;
     }
   }
 
@@ -61,7 +49,7 @@
     }
   }
 
-  .wp-block-quote {
+  blockquote {
     box-shadow: 1rem 1rem 0 $color-primary;
     background-color: #ffffff;
     width: 110%;

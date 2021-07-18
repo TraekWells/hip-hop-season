@@ -14,7 +14,19 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+      {
+        rel: 'preconnect',
+        href: 'https://fonts.googleapis.com',
+        crossorigin: '',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=PT+Sans:wght@400;700&family=Roboto:wght@100&display=swap',
+      },
+    ],
     script: [
       {
         src: '/js/main.js',
@@ -27,7 +39,7 @@ export default {
   css: ['@/assets/scss/main.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/truncate.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
