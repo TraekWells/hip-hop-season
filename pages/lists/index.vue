@@ -2,7 +2,7 @@
   <div>
     <PageHeader
       title="Lists"
-      subtitle="Everybody has their own hip hop music lists. Here are a few of mine. "
+      subtitle="Everybody has their own hip hop music lists. Here are a few of mine."
     />
     <section>
       <div class="container">
@@ -32,12 +32,40 @@
 </template>
 
 <script>
+import getMetaData from '@/config/getMetaData'
+
 export default {
   async asyncData({ $content }) {
     const latestLists = await $content('lists').limit(2).fetch()
     const allLists = await $content('lists').skip(2).fetch()
 
     return { latestLists, allLists }
+  },
+  head() {
+    return {
+      title: 'Lists',
+      meta: [...this.meta],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://hiphopseason.com/lists`,
+        },
+      ],
+    }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'page',
+        url: `https://hiphopseason.com/lists`,
+        title: 'Lists',
+        description:
+          'Everybody has their own hip hop music lists. Here are a few of mine.',
+      }
+
+      return getMetaData(metaData)
+    },
   },
 }
 </script>

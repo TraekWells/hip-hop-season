@@ -77,6 +77,7 @@
 
 <script>
 import { ArrowRightIcon } from 'vue-feather-icons'
+
 export default {
   components: { ArrowRightIcon },
   async asyncData({ $content }) {

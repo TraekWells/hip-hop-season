@@ -24,7 +24,36 @@
 </template>
 
 <script>
-export default {}
+import getMetaData from '@/config/getMetaData'
+
+export default {
+  head() {
+    return {
+      title: 'Contact',
+      meta: [...this.meta],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://hiphopseason.com/contact`,
+        },
+      ],
+    }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'page',
+        url: `https://hiphopseason.com/contact`,
+        title: 'Contact Me',
+        description:
+          "The best way to get a hold of me is through social media. Hit me up on Twitter or Instagram if you have a project you'd like me to review or just want to say",
+      }
+
+      return getMetaData(metaData)
+    },
+  },
+}
 </script>
 
 <style></style>

@@ -26,6 +26,8 @@
 </template>
 
 <script>
+import getMetaData from '@/config/getMetaData'
+
 export default {
   async asyncData({ $content, params }) {
     const list = await $content(`lists/${params.slug}`).fetch()
@@ -35,6 +37,44 @@ export default {
       .fetch()
 
     return { list, moreLists }
+  },
+  head() {
+    return {
+      title: this.list.title,
+      meta: [
+        ...this.meta,
+        {
+          property: 'article:published_time',
+          content: this.list.createdAt,
+        },
+        {
+          property: 'article:modified_time',
+          content: this.list.updatedAt,
+        },
+        { name: 'twitter:label1', content: 'Written by' },
+        { name: 'twitter:data1', content: 'Traek Wells' },
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://hiphopseason.com/lists/${this.$route.params.slug}`,
+        },
+      ],
+    }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'article',
+        url: `https://hiphopseason.com/lists/${this.$route.params.slug}`,
+        title: this.list.title,
+        description: this.list.summary,
+        image: this.list.image,
+      }
+
+      return getMetaData(metaData)
+    },
   },
 }
 </script>

@@ -30,6 +30,8 @@
 </template>
 
 <script>
+import getMetaData from '@/config/getMetaData'
+
 export default {
   async asyncData({ $content, params }) {
     const review = await $content(`reviews/${params.slug}`).fetch()
@@ -39,6 +41,44 @@ export default {
       .fetch()
 
     return { review, moreReviews }
+  },
+  head() {
+    return {
+      title: this.review.title,
+      meta: [
+        ...this.meta,
+        {
+          property: 'article:published_time',
+          content: this.review.createdAt,
+        },
+        {
+          property: 'article:modified_time',
+          content: this.review.updatedAt,
+        },
+        { name: 'twitter:label1', content: 'Written by' },
+        { name: 'twitter:data1', content: 'Traek Wells' },
+      ],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://hiphopseason.com/reviews/${this.$route.params.slug}`,
+        },
+      ],
+    }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'article',
+        url: `https://hiphopseason.com/reviews/${this.$route.params.slug}`,
+        title: this.review.title,
+        description: this.review.bottomLine,
+        image: this.review.image,
+      }
+
+      return getMetaData(metaData)
+    },
   },
 }
 </script>

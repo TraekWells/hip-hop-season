@@ -32,12 +32,39 @@
 </template>
 
 <script>
+import getMetaData from '@/config/getMetaData'
+
 export default {
   async asyncData({ $content }) {
     const latestReviews = await $content('reviews').limit(2).fetch()
     const allReviews = await $content('reviews').skip(2).fetch()
 
     return { latestReviews, allReviews }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'page',
+        url: `https://hiphopseason.com/reviews`,
+        title: 'Reviews',
+        description: 'Hip hop album reviews for non-mainstream projects.',
+      }
+
+      return getMetaData(metaData)
+    },
+  },
+  head() {
+    return {
+      title: 'Reviews',
+      meta: [...this.meta],
+      link: [
+        {
+          hid: 'canonical',
+          rel: 'canonical',
+          href: `https://hiphopseason.com/reviews`,
+        },
+      ],
+    }
   },
 }
 </script>
