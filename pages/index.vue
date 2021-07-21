@@ -9,8 +9,12 @@
           the culture.
         </p>
         <div class="button-group">
-          <a href="#" class="button button__primary mr-4">Read the Reviews</a>
-          <a href="#" class="color-white">Read the Blog <ArrowRightIcon /></a>
+          <nuxt-link to="/reviews" class="button button__primary mr-4"
+            >Read the Reviews</nuxt-link
+          >
+          <nuxt-link to="/blog" class="color-white"
+            >Read the Blog <ArrowRightIcon
+          /></nuxt-link>
         </div>
       </div>
     </header>
@@ -36,7 +40,9 @@
             :card="review"
           />
         </div>
-        <a href="#" class="button button__primary">See more reviews</a>
+        <nuxt-link to="/reviews" class="button button__primary"
+          >See more reviews</nuxt-link
+        >
       </div>
     </section>
     <section>
@@ -61,7 +67,9 @@
             :card="blog"
           />
         </div>
-        <a href="#" class="button button__primary">See more reviews</a>
+        <nuxt-link to="/blog" class="button button__primary"
+          >See more posts</nuxt-link
+        >
       </div>
     </section>
   </div>

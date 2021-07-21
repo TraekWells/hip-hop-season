@@ -6,24 +6,8 @@
         <BottomLine :bottom-line="review.bottomLine" />
         <nuxt-content :document="review"></nuxt-content>
         <FinalThoughts :final-thoughts="review.finalThoughts" />
-        <Rating
-          :lyrics="review.rating.lyrics"
-          :production="review.rating.production"
-          :replay-value="review.rating.replayValue"
-          :variety="review.rating.variety"
-        />
-        <p class="text-centered">
-          How would you rate this project? Have an album or mixtape you'd like
-          me to review? Let me know on
-          <a href="https://twitter.com/ItsHipHopSeason" target="_blank"
-            >Twitter</a
-          >
-          or
-          <a href="https://www.instagram.com/itshiphopseason/" target="_blank"
-            >Instagram</a
-          >
-          and I'll add it to my list.
-        </p>
+        <Rating :review="review" />
+        <ReachOut />
         <AboutMe />
       </div>
     </section>
@@ -37,7 +21,9 @@
             :card="review"
           />
         </div>
-        <a href="#" class="button button__primary mt-4">See All Reviews</a>
+        <nuxt-link to="/reviews" class="button button__primary mt-4"
+          >See All Reviews</nuxt-link
+        >
       </div>
     </section>
   </div>

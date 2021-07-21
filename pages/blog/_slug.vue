@@ -17,7 +17,9 @@
             :card="blog"
           />
         </div>
-        <a href="#" class="button button__primary mt-4">See All Blogs</a>
+        <nuxt-link to="/blog" class="button button__primary mt-4"
+          >See All Posts</nuxt-link
+        >
       </div>
     </section>
   </div>

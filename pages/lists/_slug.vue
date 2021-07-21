@@ -17,7 +17,9 @@
             :card="list"
           />
         </div>
-        <a href="#" class="button button__primary mt-4">See All Lists</a>
+        <nuxt-link to="/lists" class="button button__primary mt-4"
+          >See All Lists</nuxt-link
+        >
       </div>
     </section>
   </div>

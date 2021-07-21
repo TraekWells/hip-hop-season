@@ -3,7 +3,7 @@
     <p>
       <slot></slot>
     </p>
-    <cite>– {{ song }}</cite>
+    <cite v-if="song">– {{ song }}</cite>
   </blockquote>
 </template>
 
@@ -12,7 +12,6 @@ export default {
   props: {
     song: {
       type: String,
-      required: true,
     },
   },
 }

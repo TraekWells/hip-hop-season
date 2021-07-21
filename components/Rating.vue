@@ -1,35 +1,46 @@
 <template>
   <div class="rating mb-4">
     <div class="rating__image">
-      <img src="#" alt="" />
+      <nuxt-picture
+        :src="review.image"
+        :alt="review.title"
+        width="365"
+        height="365"
+      />
     </div>
     <div class="rating__overall">
       <p class="rating__score">
-        {{ lyrics + production + replayValue + variety }} / 100
+        {{
+          review.rating.lyrics +
+          review.rating.production +
+          review.rating.replayValue +
+          review.rating.variety
+        }}
+        / 100
       </p>
       <p class="rating__name">Overall</p>
     </div>
     <div class="rating__category">
-      <p class="rating__score">{{ lyrics }}<span> / 35</span></p>
+      <p class="rating__score">{{ review.rating.lyrics }}<span> / 35</span></p>
       <p class="rating__name">Lyrics</p>
     </div>
     <div class="rating__category">
       <p class="rating__score">
-        {{ production }}
+        {{ review.rating.production }}
         / 35
       </p>
       <p class="rating__name">Production</p>
     </div>
     <div class="rating__category">
       <p class="rating__score">
-        {{ replayValue }}
+        {{ review.rating.replayValue }}
         / 15
       </p>
       <p class="rating__name">Replay Value</p>
     </div>
     <div class="rating__category">
       <p class="rating__score">
-        {{ variety }}
+        {{ review.rating.variety }}
         / 15
       </p>
       <p class="rating__name">Variety</p>
@@ -40,20 +51,8 @@
 <script>
 export default {
   props: {
-    lyrics: {
-      type: Number,
-      required: true,
-    },
-    production: {
-      type: Number,
-      required: true,
-    },
-    replayValue: {
-      type: Number,
-      required: true,
-    },
-    variety: {
-      type: Number,
+    review: {
+      type: Object,
       required: true,
     },
   },

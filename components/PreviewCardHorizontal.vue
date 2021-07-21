@@ -1,7 +1,13 @@
 <template>
   <article class="card card--horizontal">
     <div class="card__image">
-      <img :src="card.image" :alt="card.title" />
+      <nuxt-picture
+        :src="card.image"
+        :alt="card.title"
+        loading="lazy"
+        width="400"
+        height="200"
+      />
     </div>
     <div class="card__details">
       <a :href="card.path">
@@ -10,7 +16,7 @@
       <p v-if="card.artist" class="section-subheader">{{ card.artist }}</p>
       <p class="date"><CalendarIcon />{{ formatDate(card.createdAt) }}</p>
       <p>{{ getSummary() }}</p>
-      <a :href="card.path">Read Review <ArrowRightIcon /></a>
+      <a :href="card.path">Read More <ArrowRightIcon /></a>
     </div>
   </article>
 </template>

@@ -48,6 +48,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxt/image',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -62,6 +63,11 @@ export default {
       './assets/scss/modules/_mixins.scss',
       './assets/scss/modules/_varibles.scss',
     ],
+  },
+
+  image: {
+    // options
+    dir: 'static/images',
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
