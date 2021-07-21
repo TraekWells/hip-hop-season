@@ -2,15 +2,13 @@
 title: 'Top Five Albums of 2020 (Mid-Year)'
 featured: false
 image: 'top-5-albums-of-2020-mid-year-hero.jpg'
-summary: Here is the excerpt for this post
+summary: This year has been trash for the most part but some quality albums have been released so far. Here are my top five albums of 2020.
 createdAt: '08-07-2020'
 ---
 
 I’ve seen a handful of lists for the top five albums of 2020. What’s interesting about them all is that they include the same albums, more or less, depending on the publication. The reason that’s interesting is that it’s clear that quality music stands out and makes a lasting impression on listeners.
 
 For me, the four most important aspects of an album are lyrics, production, replay value, and variety. Those are the four categories [I review albums](/reviews) on with an emphasis on lyrics and production. This year has had quite a few great album releases considering how trash 2020 has been up to this point. Let’s get into my top five albums of 2020 so far.
-
-image
 
 ## 5. RTJ4 (Run The Jewels 4)
 
@@ -26,8 +24,6 @@ This is the album that I’ve seen as most other people’s album of the year, s
 - The Ground Below
 - A Few Words for the Firing Squad
 
-Alfred album cover
-
 ## 4. Alfredo
 
 ![Alfred album cover](/images/alfredo-album-cover.jpg)
@@ -41,8 +37,6 @@ My favorite thing about Freddie Gibbs is the unapologetic flurry of bars he deli
 - 1985
 - Frank Lucas
 - Something to Rap About
-
-All My Heros Are Dead album cover
 
 ## 3. All My Heroes Are Dead
 

@@ -1,12 +1,7 @@
 <template>
   <div class="rating mb-4">
     <div class="rating__image">
-      <nuxt-picture
-        :src="review.image"
-        :alt="review.title"
-        width="365"
-        height="365"
-      />
+      <nuxt-picture :src="review.image" :alt="review.title" width="365" />
     </div>
     <div class="rating__overall">
       <p class="rating__score">

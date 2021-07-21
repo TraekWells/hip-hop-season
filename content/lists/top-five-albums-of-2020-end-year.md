@@ -2,7 +2,7 @@
 title: 'Top Five Albums of 2020 (End-Year)'
 featured: false
 image: 'top-5-albums-2020-end-year.jpg'
-summary: Here is the excerpt for this post
+summary: 2020 has been a terrible year for the world but it's been a fantastic year for hip hop. Here are the top five albums of 2020 with some honorable mentions.
 createdAt: '12-29-2020'
 ---
 

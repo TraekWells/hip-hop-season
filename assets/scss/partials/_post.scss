@@ -121,7 +121,7 @@
 
     &__image {
       grid-column: 1 / 3;
-      @include box-shadow;
+      box-shadow: 0.5rem 0.5rem 0 $color-primary;
 
       @include respond(phone) {
         grid-column: span 1;

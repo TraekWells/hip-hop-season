@@ -2,7 +2,7 @@
 title: 'Five Artists I Need Projects From In 2020'
 featured: false
 image: '5-artists-i-need-projects-from-in-2020-hero-image.jpg'
-summary: Here is the excerpt for this post
+summary: I have a feeling this year is going to be a great year for hip hop. Here are five artists I need projects from in 2020.
 createdAt: '04-10-2020'
 ---
 

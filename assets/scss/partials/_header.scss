@@ -30,30 +30,30 @@
     }
   }
 
-  // &--home {
-  //   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  //     url("../images/homepage-hero-image.jpg");
-  // }
+  &--home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('/images/homepage-hero-image.jpg');
+  }
 
-  // &--blog {
-  //   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  //     url("../images/blog-header.jpg");
-  // }
+  &--blog {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('/images/blog-header.jpg');
+  }
 
-  // &--review {
-  //   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  //     url("../images/review-header.jpg");
-  // }
+  &--review {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('/images/review-header.jpg');
+  }
 
-  // &--contact {
-  //   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  //     url("../images/contact-header.jpg");
-  // }
+  &--contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('/images/contact-header.jpg');
+  }
 
-  // &--about {
-  //   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  //     url("../images/about-header.jpg");
-  // }
+  &--about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('/images/about-header.jpg');
+  }
 
   .date,
   .author {

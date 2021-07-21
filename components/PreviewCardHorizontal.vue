@@ -6,7 +6,7 @@
         :alt="card.title"
         loading="lazy"
         width="400"
-        height="200"
+        height="230"
       />
     </div>
     <div class="card__details">

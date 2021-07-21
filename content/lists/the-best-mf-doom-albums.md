@@ -2,7 +2,7 @@
 title: 'The Best MF DOOM Albums'
 featured: true
 image: 'best-mf-doom-albums-image.jpg'
-summary: Here is the excerpt for this post
+summary: MF DOOM is one of the best and complex rhymers of all time. As a long-time fan of this mysterious genius, I had to rank the best MF DOOM albums in my opinion.
 createdAt: '07-15-2021'
 ---
 

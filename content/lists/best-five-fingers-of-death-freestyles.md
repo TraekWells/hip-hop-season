@@ -2,7 +2,7 @@
 title: 'Best Five Fingers Of Death Freestyles'
 featured: true
 image: 'top-5-five-fingers-of-death-hero-image.jpg'
-summary: Here is the excerpt for this post
+summary: The five fingers of death is a challenge from by Sway to test rappers' ability to freestyle over five beats. Here are the best five fingers of death freestyles to me.
 createdAt: '05-01-2020'
 ---
 

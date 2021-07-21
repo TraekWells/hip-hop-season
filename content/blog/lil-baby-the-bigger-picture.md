@@ -2,7 +2,7 @@
 title: 'Lil Baby’s Releases The Powerful The Bigger Picture'
 featured: true
 image: 'the-bigger-picture-hero-image.jpg'
-summary: Here is the excerpt for this post
+summary: Following the aftermath of the unjust murder of George Floyd, Lil Baby releases the powerful, heartfelt track The Bigger Picture in hopes of positive change.
 createdAt: '07-09-2020'
 ---
 

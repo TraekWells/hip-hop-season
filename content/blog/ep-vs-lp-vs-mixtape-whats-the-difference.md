@@ -2,7 +2,7 @@
 title: 'EP vs LP vs Mixtape: What’s the difference?'
 featured: true
 image: 'ep-vs-lp-vs-album-hero-image.jpg'
-summary: 'Here is the excerpt for this post'
+summary: EPs, LPs, and mixtapes are similar but what are differences? This post will break that down so you can finally understand the common traits they share.
 createdAt: '04-20-2020'
 ---
 
