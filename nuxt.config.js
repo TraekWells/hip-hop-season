@@ -72,7 +72,13 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     '@nuxtjs/style-resources',
+    'vue-plausible',
   ],
+
+  plausible: {
+    domain: 'hiphopseason.com',
+    trackLocalhost: false,
+  },
 
   styleResources: {
     scss: [
