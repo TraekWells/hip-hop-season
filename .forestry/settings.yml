@@ -3,7 +3,28 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: heading
+  label: Reviews
+- type: directory
+  path: content/reviews
+  label: Reviews
+  create: all
+  match: "**/*"
+- type: heading
+  label: Blog
+- type: directory
+  path: content/blog
+  label: Blog
+  create: all
+  match: "**/*"
+- type: heading
+  label: Lists
+- type: directory
+  path: content/lists
+  label: Lists
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
