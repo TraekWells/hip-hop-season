@@ -70,7 +70,7 @@ export default {
         url: `https://hiphopseason.com/blog/${this.$route.params.slug}`,
         title: this.blog.title,
         description: this.blog.summary,
-        image: this.blog.image,
+        image: `/images/${this.blog.image}`,
       }
 
       return getMetaData(metaData)

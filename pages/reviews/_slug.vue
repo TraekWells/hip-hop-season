@@ -74,7 +74,7 @@ export default {
         url: `https://hiphopseason.com/reviews/${this.$route.params.slug}`,
         title: this.review.title,
         description: this.review.bottomLine,
-        image: `images/${this.review.image}`,
+        image: `/images/${this.review.image}`,
       }
 
       return getMetaData(metaData)
