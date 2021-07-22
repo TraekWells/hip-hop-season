@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <PageHeader
       title="Contact Me"
       subtitle="Everybody has their own hip hop music lists. Here are a few of mine."
@@ -20,7 +20,7 @@
         </p>
       </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>

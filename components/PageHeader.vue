@@ -42,6 +42,9 @@ export default {
         case 'Contact Me':
           this.pageType = 'header--contact'
           break
+        case 'About Me':
+          this.pageType = 'header--contact'
+          break
       }
     },
   },

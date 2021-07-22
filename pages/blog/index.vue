@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <PageHeader
       title="Blog"
       subtitle="Thoughts about random things related to Hip Hop."
@@ -28,7 +28,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>

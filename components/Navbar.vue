@@ -85,18 +85,18 @@
           <nuxt-link to="/contact" class="nav__link">Contact Me</nuxt-link>
         </li>
         <div class="nav__social">
-          <nuxt-link
+          <a
             class="nav__social-link"
             to="https://twitter.com/ItsHipHopSeason"
             target="_blank"
-            ><i data-feather="twitter"></i
-          ></nuxt-link>
-          <nuxt-link
+            ><TwitterIcon
+          /></a>
+          <a
             class="nav__social-link"
             to="https://www.instagram.com/itshiphopseason/"
             target="_blank"
-            ><i data-feather="instagram"></i
-          ></nuxt-link>
+            ><InstagramIcon
+          /></a>
         </div>
       </ul>
       <div class="nav__burger">
@@ -109,7 +109,10 @@
 </template>
 
 <script>
-export default {}
+import { InstagramIcon, TwitterIcon } from 'vue-feather-icons'
+export default {
+  components: { InstagramIcon, TwitterIcon },
+}
 </script>
 
 <style></style>

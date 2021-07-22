@@ -4,10 +4,16 @@
       <div class="footer__nav">
         <div class="footer__group">
           <p class="footer__header">Pages</p>
-          <p><a href="#" class="footer__link">Reviews</a></p>
-          <p><a href="#" class="footer__link">Blog</a></p>
-          <p><a href="#" class="footer__link">About Me</a></p>
-          <p><a href="#" class="footer__link">Contact Me</a></p>
+          <p>
+            <nuxt-link to="/reviews" class="footer__link">Reviews</nuxt-link>
+          </p>
+          <p><nuxt-link to="/blog" class="footer__link">Blog</nuxt-link></p>
+          <p>
+            <nuxt-link to="/about-me" class="footer__link">About Me</nuxt-link>
+          </p>
+          <p>
+            <nuxt-link to="/contact" class="footer__link">Contact Me</nuxt-link>
+          </p>
         </div>
         <div class="footer__group">
           <p class="footer__header">Connect</p>
@@ -48,5 +54,3 @@
 <script>
 export default {}
 </script>
-
-<style></style>

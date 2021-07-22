@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <PostHeader :post="list" />
     <section class="post">
       <div class="container--narrow">
@@ -22,7 +22,7 @@
         >
       </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>

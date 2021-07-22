@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <PostHeader :post="review" />
     <section class="post">
       <div class="container--narrow">
@@ -26,7 +26,7 @@
         >
       </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>

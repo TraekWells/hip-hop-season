@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <header class="header header--home">
       <div class="container">
         <h1 class="mb-4">Welcome to Hip Hop Season</h1>
@@ -72,7 +72,7 @@
         >
       </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>

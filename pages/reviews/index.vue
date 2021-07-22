@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <main>
     <PageHeader
       title="Reviews"
       subtitle="My thoughts and opinions about different albums and mixtapes."
@@ -28,7 +28,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </main>
 </template>
 
 <script>
