@@ -1,0 +1,19 @@
+---
+label: Blog Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: featured
+  label: featured
+- type: file
+  name: image
+  label: image
+- type: textarea
+  name: summary
+  label: summary
+- type: text
+  name: createdAt
+  label: createdAt
