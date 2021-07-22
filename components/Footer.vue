@@ -44,7 +44,7 @@
         </div>
       </div>
       <p class="copyright">
-        © {date} Hip Hop Season. All rights reserved. Designed and Coded by
+        © {{ date }} Hip Hop Season. All rights reserved. Designed and Coded by
         <a href="https://traek.dev" target="_blank">Traek Wells</a>.
       </p>
     </div>
@@ -52,5 +52,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      date: null,
+    }
+  },
+  mounted() {
+    const year = new Date().getFullYear()
+    this.date = year
+  },
+}
 </script>
