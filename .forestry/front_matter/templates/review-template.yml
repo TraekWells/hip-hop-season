@@ -1,0 +1,41 @@
+---
+label: Review Template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: artist
+  label: artist
+- type: boolean
+  name: featured
+  label: featured
+- type: textarea
+  name: finalThoughts
+  label: finalThoughts
+- type: textarea
+  name: bottomLine
+  label: bottomLine
+- type: file
+  name: image
+  label: image
+- type: field_group
+  name: rating
+  label: rating
+  fields:
+  - type: number
+    name: lyrics
+    label: lyrics
+  - type: number
+    name: production
+    label: production
+  - type: number
+    name: replayValue
+    label: replayValue
+  - type: number
+    name: variety
+    label: variety
+- type: text
+  name: createdAt
+  label: createdAt
