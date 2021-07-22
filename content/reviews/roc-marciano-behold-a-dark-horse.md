@@ -14,11 +14,11 @@ _Behold A Dark Horse_ is Roc Marciano’s second solo album of 2018 and it picks
 This album starts off fantastically with an almost comic-like villainy sound for about 15 seconds until Roc starts rapping with his trademark voice and style. During this album review, it was hard to not quote the entire project but this first verse has some of my favorite lines from the album:
 
 <quote song="The Horse's Mouth">
-I'm the illest out the bunch /  
-The butterfly was a caterpillar once /  
-Son, if it's love, then why bring it up like a grudge? /  
-N***** blood drunk but, nah, I ain't spiked the punch, son /  
-Nice with the pump, I'm live as Spice-1 /  
+I'm the illest out the bunch /
+The butterfly was a caterpillar once /
+Son, if it's love, then why bring it up like a grudge? /
+N***** blood drunk but, nah, I ain't spiked the punch, son /
+Nice with the pump, I'm live as Spice-1 /
 Your writin' need to be spiced up some, uh /
 </quote>
 

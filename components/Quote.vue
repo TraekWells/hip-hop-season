@@ -14,6 +14,17 @@ export default {
       type: String,
     },
   },
+  // mounted() {
+  //   this.addLineBreaks()
+  // },
+  // methods: {
+  //   addLineBreaks() {
+  //     const lyrics = this.$slots.default[0].text
+  //     lyrics.split('/').forEach((line) => {
+  //       console.log(line.indexOf('/'))
+  //     })
+  //   },
+  // },
 }
 </script>
 
