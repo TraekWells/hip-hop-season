@@ -39,5 +39,3 @@ fields:
 - type: text
   name: createdAt
   label: createdAt
-pages:
-- content/reviews/royce-da-5-9-the-bar-exam.md
