@@ -4,38 +4,42 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: artist
-  label: artist
+  label: Artist
 - type: boolean
   name: featured
-  label: featured
+  label: Featured?
 - type: textarea
   name: finalThoughts
-  label: finalThoughts
+  label: Final Thoughts
 - type: textarea
   name: bottomLine
-  label: bottomLine
+  label: Bottom Line
 - type: file
   name: image
-  label: image
+  label: Image
 - type: field_group
   name: rating
-  label: rating
   fields:
   - type: number
     name: lyrics
-    label: lyrics
+    label: Lyrics
+    description: Out of 35
   - type: number
     name: production
-    label: production
+    label: Production
+    description: Out of 35
   - type: number
     name: replayValue
-    label: replayValue
+    label: Replay Value
+    description: Out of 15
   - type: number
     name: variety
-    label: variety
+    label: Variety
+    description: Out of 15
+  label: Rating
 - type: text
   name: createdAt
-  label: createdAt
+  label: Date
