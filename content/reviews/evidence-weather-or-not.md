@@ -13,7 +13,7 @@ The [Rhymesayers](https://rhymesayers.com/artists/evidence) member Evidence rele
 
 The opening track “The Factory” is a banger and Evidence starts us off with his trademark flow. The beat on this makes it near impossible to not bop your head to. Being 43 years old at the time of writing this, Evidence does seem to carry that old-school hip hop sound with him wherever he goes. He isn’t a punchline rapper per se but that doesn’t mean he doesn’t know how to deliver heavy-handed bars _(“I got bars like I'm separating groceries / I'm celebrating globally, you're celebrating locally”)_.
 
-<video-embed link="https://youtu.be/xCDCKbhEUXI"></video-embed>
+<video-embed link="https://www.youtube.com/embed/xCDCKbhEUXI"></video-embed>
 
 One particular aspect of this album that is done well is the well-placed skits. The album isn’t littered with them and they all build on the narrative the album is laying out. They’re a series of voicemail messages that are left on Mike’s (Evidence’s real name) phone saying that they have some un-repaired speakers that are ready to be recycled. As the album plays out, your mind begins to form an image of a person who is losing grip on life or is falling prey to procrastination.
 
@@ -43,7 +43,7 @@ Bitter and sour, gossip at the top of every hour /
 
 It also has a pretty dope video to go along with it.
 
-<video-embed link="https://youtu.be/8cRDx9-ODUc"></video-embed>
+<video-embed link="https://www.youtube.com/embed/8cRDx9-ODUc"></video-embed>
 
 As the album comes to a close, Evidence gives us “By My Side Too” which is a story about his lady who is going through chemotherapy. A lump was found on her breast as she was breastfeeding their child and you can feel the sadness but also thankfulness in his voice as he says “It turns out she has stage 3 C cancer, and he saved her life man he really did. So you a blessing, my G Love you.”
 

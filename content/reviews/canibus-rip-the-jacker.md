@@ -28,7 +28,7 @@ On the seventh cycle, I had to take the day off /
 I was exhausted, I guessed my work will never pay off /
 </quote>
 
-<video-embed link="https://youtu.be/PqLGW2aS_sU"></video-embed>
+<video-embed link="https://www.youtube.com/embed/PqLGW2aS_sU"></video-embed>
 
 Rip the Jacker, similar to basically everything else Canibus has put out, is nerd-rap. That is in no way a slight to him, but it does mean that it’s going to be enjoyed only by a specific audience. It’s ridiculously knowledgeable, layered on multiple levels, and filled with cosmic and philosophical references.
 
@@ -75,6 +75,6 @@ The unparalleled malleable enunciation of a sentence /
 
 You have to give this track a listen.
 
-<video-embed link="https://youtu.be/PqLGW2aS_sU"></video-embed>
+<video-embed link="https://www.youtube.com/embed/vuXrT03lyGo"></video-embed>
 
 One could easily write an entire post just on Poet Laureate II alone. From references to geniuses from the past and the impressive use of scientific vernacular, Canibus delivered a classic with this track.

@@ -13,7 +13,7 @@ createdAt: '04-14-2020'
 
 Coming off of his highly successful album debut _[FOTO](https://open.spotify.com/album/6RBVbvHUbdAnUWm4GjyY7A?si=u-4SG9guRBS1hyN0xtQVpQ)_ released in the middle of 2019, Kota the Friend is looking to continue that momentum with _Lyrics to Go, Vol. 1._
 
-<video-embed link="https://youtu.be/3uFVXlk_oSY"></video-embed>
+<video-embed link="https://www.youtube.com/embed/3uFVXlk_oSY"></video-embed>
 
 If there existed a pocket-sized booklet full of life advice derived from success and failures, it would be the written version of this album. Kota the Friend is open and truthful during this whole 14-minute experience and he’s giving the listeners an insight on what he believes people should value and embrace. _[FOTO](https://open.spotify.com/album/6RBVbvHUbdAnUWm4GjyY7A?si=u-4SG9guRBS1hyN0xtQVpQ)_ had a similar theme where it seemed that every track was a different part of Kota’s life and he was guiding the audience through it. “Berlin” tells a dark story about his struggle and trust issues as he raps:
 
@@ -48,7 +48,7 @@ _Lyrics to Go_ being so short is both a gift and a curse. This album was release
 
 With that said, I can’t help but wish some of the songs had a second verse or a longer, single verse. “She” would have benefited greatly from a second verse about what happens after she “cracked that smile” and gave Kota that same look. (Listen to “She” below). He teases us in a way while he describes this girl but the song just ends somewhat abruptly. Technically this was released as an album but it gives off the impression of an [Extended Play (EP)](/blog/ep-vs-lp-vs-album-vs-mixtape-whats-the-difference/).
 
-<video-embed link="https://youtu.be/DgVFZegRldQ"></video-embed>
+<video-embed link="https://www.youtube.com/embed/DgVFZegRldQ"></video-embed>
 
 ## Standout Tracks
 

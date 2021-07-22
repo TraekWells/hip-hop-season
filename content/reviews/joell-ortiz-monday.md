@@ -18,8 +18,8 @@ The beat on the first rap track “Captain” is super dope. It’s smooth with 
 <quote song="Captain">
 Tryna out-rap Nasir and keep up wit Jay-Z /  
 Crumblin' sixteens, I was only sixteen /  
-Fast-forward, n\*\*\*\*\* out here mumblin', B /  
-Why be smart when n\*\*\*\*\* on the charts dumber than me? /  
+Fast-forward, n***** out here mumblin', B /  
+Why be smart when n***** on the charts dumber than me? /  
 A bunch of bums with more money than me /  
 So stayin' complex, yeah, that's an everyday struggle for me /  
 I'm from when everybody wanted five mics /  
@@ -41,7 +41,7 @@ No one in my phone book I could call for assistance /
 'Cause they won't understand what I be goin' through, what is this? /
 </quote>
 
-<video-embed link="https://youtu.be/ycYLZeODlNA"></video-embed>
+<video-embed link="https://www.youtube.com/embed/ycYLZeODlNA"></video-embed>
 
 For the most part, the hooks on this album aren’t bad. A major factor in most non-mainstream hip hop music is the lack of quality hooks. With that being said, the hook on “Jamaican Food” is very meh. This is the only track on this project that gave off the impression of a filler song. It’s really the only low-point during this entire album, which is otherwise fantastic.
 

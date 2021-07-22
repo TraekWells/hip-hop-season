@@ -13,7 +13,7 @@ The British rapper and songwriter Dave is a unique artist and a talented musicia
 
 [NPR](https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A) gave Dave the chance to perform a few songs in front of a small crowd. The songs he chose to perform were perfect in representing the kind artist Dave is. First, he performed “Location” which is a song that served as one of the singles for _Psychodrama._ He ended with two songs that have deep meanings and solemn messages over the piano and guitar. Overall it was a great performance. Check it out below.
 
-<video-embed link="https://youtu.be/s_TgmrNNHXA"></video-embed>
+<video-embed link="https://www.youtube.com/embed/s_TgmrNNHXA"></video-embed>
 
 The lead single for _Psychodrama_ is a song called “Black” and it’s gotta be one of the most beautiful songs ever recorded. The piano on this track is perfectly blended in with the percussion. It’s just quiet enough so you can focus on the lyrics without losing out on the beat.
 
@@ -32,7 +32,7 @@ If he's black he's probably armed, you see him and shoot /
 
 This masterpiece also comes with a video.
 
-<video-embed link="https://youtu.be/pDUPSNdmFew"></video-embed>
+<video-embed link="https://www.youtube.com/embed/pDUPSNdmFew"></video-embed>
 
 While doing research for this album, it was discovered that “Psychodrama” is actually a concept album. The theme is clear from the short, well-placed skits of the therapist talking, but the concept didn’t make itself obvious. It took me looking up the definition of “Psychodrama” and a few listens to really understand the concept but once I did, it made sense.
 

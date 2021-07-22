@@ -21,8 +21,9 @@ You know when the challenge is about to start when you hear Sway build-up and sa
 Grafh has one of my favorite flows to listen to. It’s smooth and he just glides over the beats and always injects a good bit of humor into his rhymes. Being a somewhat unknown but highly skilled veteran in the game, his body of work is extensive and you can almost feel the passion for rap as he’s rhyming. He’s appeared on Sway in the morning a handful of times and this time, he dropped a freestyle that landed him at my number five spot.
 
 Standout lines:
+
 <quote>
-I’m a boss, n\*\*\*\* you heard what I said already /
+I’m a boss, n**** you heard what I said already /
 Any rapper better than me is dead already /
 The legendary spirits that are dead and buried /
 Are hereditary my DNA in the cemetery /
@@ -30,7 +31,7 @@ Are hereditary my DNA in the cemetery /
 
 That’s bars.
 
-<video-embed link="https://youtu.be/BiVnfvyV1uM"></video-embed>
+<video-embed link="https://www.youtube.com/embed/BiVnfvyV1uM"></video-embed>
 
 ## 4. Tory Lanez
 
@@ -45,7 +46,7 @@ My d*** like my grip, it gets bigger when I slide in /
 Coming through the spot, jewels drippin’ like Poseidon /
 </quote>
 
-<video-embed link="https://youtu.be/AHwZBYCwxPY"></video-embed>
+<video-embed link="https://www.youtube.com/embed/AHwZBYCwxPY"></video-embed>
 
 ## 3. Papoose
 
@@ -60,7 +61,7 @@ My rhymes memorized, ya’ll read out of ya’ll phones /
 Just a bunch of dumb n***** with smartphones /
 </quote>
 
-<video-embed link="https://youtu.be/yaJy9ba1T0s"></video-embed>
+<video-embed link="https://www.youtube.com/embed/yaJy9ba1T0s"></video-embed>
 
 ## 2. Oswin Benjamin
 
@@ -87,7 +88,7 @@ Every story read will be glorifying the hunter /
 
 🔥
 
-<video-embed link="https://youtu.be/i8c9r4bDdxk"></video-embed>
+<video-embed link="https://www.youtube.com/embed/i8c9r4bDdxk"></video-embed>
 
 ## 1. Los
 
@@ -100,7 +101,7 @@ I don’t really get it, I got two brains in the same mind /
 I break it down and get two thoughts at the same time /
 </quote>
 
-<video-embed link="https://youtu.be/rC94LdemdR8"></video-embed>
+<video-embed link="https://www.youtube.com/embed/rC94LdemdR8"></video-embed>
 
 ## Finally
 

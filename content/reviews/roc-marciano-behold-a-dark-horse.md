@@ -24,7 +24,7 @@ Your writin' need to be spiced up some, uh /
 
 The delivery and tempo on that are just 🔥. Reading it doesn’t do it justice so give it a listen.
 
-<video-embed link="https://youtu.be/Qt1zAlrqwsU"></video-embed>
+<video-embed link="https://www.youtube.com/embed/Qt1zAlrqwsU"></video-embed>
 
 It’s hard to think of an artist who can paint a picture and pull the listener inside of it better than Roc Marciano can. Listening to him rap is like walking down a New York alley in the middle of the night, while he is narrating from street speakers. It’s truly cinematic. He commands so much authority on his tracks and he talks about himself like he’s on top of the throne and all other rappers work for him.
 
@@ -62,7 +62,7 @@ To write what I scribe means spending time on the wild side /
 
 Sheesh.. that’s 🔥
 
-<video-embed link="https://youtu.be/HZ9MwqQ6JhA"></video-embed>
+<video-embed link="https://www.youtube.com/embed/HZ9MwqQ6JhA"></video-embed>
 
 ## Standout Tracks
 
