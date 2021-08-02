@@ -16,4 +16,4 @@ fields:
   label: summary
 - type: text
   name: createdAt
-  label: createdAt
+  label: Date
