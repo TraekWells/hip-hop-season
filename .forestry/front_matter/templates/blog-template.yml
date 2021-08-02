@@ -4,16 +4,16 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: boolean
   name: featured
-  label: featured
+  label: Featured
 - type: file
   name: image
-  label: image
+  label: Image
 - type: textarea
   name: summary
-  label: summary
+  label: Summary
 - type: text
   name: createdAt
   label: Date
