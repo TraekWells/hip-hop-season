@@ -11,11 +11,15 @@ sections:
   label: Reviews
   create: all
   match: "**/*"
+  templates:
+  - review-template
 - type: directory
   path: content/blog
   label: Blog
   create: all
   match: "**/*"
+  templates:
+  - blog-template
 - type: directory
   path: content/lists
   label: Lists
