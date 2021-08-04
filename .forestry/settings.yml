@@ -25,6 +25,8 @@ sections:
   label: Lists
   create: all
   match: "**/*"
+  templates:
+  - blog-template
 upload_dir: static
 public_path: static/images
 front_matter_path: ''
