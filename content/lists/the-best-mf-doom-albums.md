@@ -77,7 +77,7 @@ Skull get smashed for weeks /
 
 The video is crazy too.
 
-<video-embed link="https://youtu.be/AsdW63DxPUw"></video-embed>
+<video-embed link="https://www.youtube.com/embed/AsdW63DxPUw"></video-embed>
 
 The thing holding this back from being one of his best for me is the fact that again, there’s simply not enough rapping from DOOM. There’s even a few tracks on here rapped entirely by guests (“’I Wonder’ was 🔥 though”). Especially with this project being only 42 minutes long with at least 5 of those minutes being dedicated to skits, it sounds like some kind of group collab album instead of a solo release.
 
@@ -107,7 +107,7 @@ They left him trembling, he was not remembering /
 Never tuck your denim in just to floss an emblem /
 </quote>
 
-<video-embed link="https://youtu.be/60uP9kG2rZo"></video-embed>
+<video-embed link="https://www.youtube.com/embed/60uP9kG2rZo"></video-embed>
 
 This album sounded almost nothing like any other rap albums around it’s time of release. I do find some enjoyment with this project but the fact that it sounds dated and has some pretty whack hooks, it doesn’t really bring me back to it. Still an extremely important album for starting the career of DOOM, just not particularly my taste in sound.
 
@@ -143,7 +143,7 @@ Revelations in Braille, respiration inhale, view /
 Nations fail and shaking of a snake tail make due /
 </quote>
 
-<video-embed link="https://youtu.be/M4LJOXqLK1o"></video-embed>
+<video-embed link="https://www.youtube.com/embed/M4LJOXqLK1o"></video-embed>
 
 _Born Like This_ is a great album and is arguably his best if we’re talking about showcasing pure lyrical ability. DOOM’s trademark style is apparent throughout the entire listen and I come back to this project all the time.
 
@@ -164,7 +164,7 @@ Off pride tykes talk wide through scar meat /
 Off sides like how Worf rides with Starfleet /
 </quote>
 
-<video-embed link="https://youtu.be/wJENN7pb178"></video-embed>
+<video-embed link="https://www.youtube.com/embed/wJENN7pb178"></video-embed>
 
 The sheer amount of pleasant sounds you hear allows you to get lost in the experience of this album. It’s honestly one of a kind.
 
@@ -212,7 +212,7 @@ Try the straight pliers, if not—the vice grips /
 A real price-saver way to acquire nice whips /
 </quote>
 
-<video-embed link="https://youtu.be/E5s6jcuw6NM"></video-embed>
+<video-embed link="https://www.youtube.com/embed/E5s6jcuw6NM"></video-embed>
 
 All in all, I feel that _Mm..Food_ is the most complete hip hop album in DOOM’s already impressive catalog. As previously mentioned, between 2003 and 2005, I feel that DOOM was in his absolute prime and could not miss. The beats are fire, the lyrics are as sharp and complex as ever and the best part about it, there is only a minimal amount of features.
 
