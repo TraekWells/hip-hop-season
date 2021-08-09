@@ -64,6 +64,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@/modules/sitemapRouteGenerator',
     '@nuxt/image',
   ],
 
@@ -73,6 +74,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/style-resources',
     'vue-plausible',
+    '@nuxtjs/sitemap',
   ],
 
   plausible: {
@@ -97,4 +99,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  sitemap: {
+    hostname: 'https://hiphopseason.com',
+  },
 }
