@@ -27,3 +27,5 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+pages:
+- content/lists/top-five-albums-of-2021-mid-year.md
