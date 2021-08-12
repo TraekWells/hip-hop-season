@@ -1,12 +1,13 @@
 ---
-title: 'Top Five Albums of 2020 (End-Year)'
+title: Top Five Albums of 2020 (End-Year)
 featured: false
-image: 'top-5-albums-2020-end-year.jpg'
-summary: 2020 has been a terrible year for the world but it's been a fantastic year for hip hop. Here are the top five albums of 2020 with some honorable mentions.
-createdAt: '12-29-2020'
+image: top-5-albums-2020-end-year.jpg
+summary: 2020 has been a terrible year for the world but it's been a fantastic year
+  for hip hop. Here are the top five albums of 2020 with some honorable mentions.
+createdAt: 2020-12-29T06:00:00Z
 draft: false
----
 
+---
 I’m going to say it straight from the jump, the top five albums of 2020 was one of the hardest lists I’ve ever had to come up with. This year was filled with so many dope albums, I considered making it a top 10 albums of 2020 instead of five.
 
 I decided to stay true to what I said I was going to do and keep it at five but in reality, there are about 10 albums that could be number one. A few albums from my [best mid-year](/lists/top-five-albums-of-2020-mid-year) albums made it to this list but most of them got knocked down to the honorable mentions.
