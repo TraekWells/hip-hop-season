@@ -2,14 +2,28 @@
 title: Lyrics to Go, Vol. 1
 artist: Kota the Friend
 featured: false
-finalThoughts: Lyrics to Go, Vol 1. is a supremely enjoyable album filled with extremely chill beats and powerful, moving lyrics. I can’t even tell you the number of times I’ve played this album without getting tired of hearing Kota the Friend’s voice, valuable life lessons, and relatable lyrics. The guitars, piano, saxophones, and trumpets are a nice addition to the ever usual bass and snare while Kota calmly glides of the beats with his personal subject matter. As previously mentioned, I wish some of the songs were longer and a bit more fleshed out, but this sample-sized showcase leaves me eager to hear his next project.
-bottomLine: Clocking in at just over 14 minutes in length, Lyrics to Go, Vol. 1 gives the listeners advice on being introspective, appreciating what you have and being a positive influence for the people around you. This bite-sized piece of work showcases Kota’s creative artistry and unique sound.
-image: 'lyrics-to-go-album-cover.jpg'
-rating: { lyrics: 29, production: 30, replayValue: 15, variety: 11 }
-createdAt: '04-14-2020'
+finalThoughts: Lyrics to Go, Vol 1. is a supremely enjoyable album filled with extremely
+  chill beats and powerful, moving lyrics. I can’t even tell you the number of times
+  I’ve played this album without getting tired of hearing Kota the Friend’s voice,
+  valuable life lessons, and relatable lyrics. The guitars, piano, saxophones, and
+  trumpets are a nice addition to the ever usual bass and snare while Kota calmly
+  glides of the beats with his personal subject matter. As previously mentioned, I
+  wish some of the songs were longer and a bit more fleshed out, but this sample-sized
+  showcase leaves me eager to hear his next project.
+bottomLine: Clocking in at just over 14 minutes in length, Lyrics to Go, Vol. 1 gives
+  the listeners advice on being introspective, appreciating what you have and being
+  a positive influence for the people around you. This bite-sized piece of work showcases
+  Kota’s creative artistry and unique sound.
+image: lyrics-to-go-album-cover.jpg
+rating:
+  lyrics: 29
+  production: 30
+  replayValue: 15
+  variety: 11
+createdAt: 2020-04-14T05:00:00Z
 draft: false
----
 
+---
 “F\*\*\* your opinion, I was doing good without it, I been living, I been minding my business.” Those are the first lyrics you hear from this album and it sets the tone for what’s to come throughout the rest of the project. Trusting yourself, loving the people around you, and having an end goal are themes that come up plenty of times. You can tell from his [Instagram](https://www.instagram.com/kotathefriend/) that he values family and flexing his creative muscle. For only being 26 at the time of writing this review, it appears Kota has an older person’s wisdom for such a young age.
 
 Coming off of his highly successful album debut _[FOTO](https://open.spotify.com/album/6RBVbvHUbdAnUWm4GjyY7A?si=u-4SG9guRBS1hyN0xtQVpQ)_ released in the middle of 2019, Kota the Friend is looking to continue that momentum with _Lyrics to Go, Vol. 1._
