@@ -2,14 +2,23 @@
 title: '777: The Resurrection'
 artist: Saigon
 featured: false
-finalThoughts: Although only an EP, Saigon sounds refreshed throughout this entire project. Lyrically, he’s just as good as he’s ever been and the production sounds good with his style of rapping. There really isn’t anything that stood out that would bring me back to give it more listens, but it’s a solid EP regardless. Looking forward to a full LP release under Strange Music.
-bottomLine: Saigon’s Strange Music debut is a preview of what happens when a talented lyricist meets high quality production.
-image: '777-album-cover.jpg'
-rating: { lyrics: 29, production: 30, replayValue: 9, variety: 10 }
-createdAt: '10-24-2020'
+finalThoughts: Although only an EP, Saigon sounds refreshed throughout this entire
+  project. Lyrically, he’s just as good as he’s ever been and the production sounds
+  good with his style of rapping. There really isn’t anything that stood out that
+  would bring me back to give it more listens, but it’s a solid EP regardless. Looking
+  forward to a full LP release under Strange Music.
+bottomLine: Saigon’s Strange Music debut is a preview of what happens when a talented
+  lyricist meets high quality production.
+image: 777-album-cover.jpg
+rating:
+  lyrics: 29
+  production: 30
+  replayValue: 9
+  variety: 10
+createdAt: 2020-10-24T05:00:00Z
 draft: false
----
 
+---
 Saigon is back after a six-year gap between his last project release and _777: The Resurrection_. The veteran has recently inked a deal with [Strange Music](https://www.strangemusicinc.com/) which I believe to be a great move for his career. Being 43 at the time of this writing, he has always appeared to put lyrics and wordplay above all else and I think [Tech N9ne](https://en.wikipedia.org/wiki/Tech_N9ne)’s label is going to give him the production value he never had in the past.
 
 He starts the first track off with an announcement that “we” are sick of the pain, the mistreatment and it’s time for a change. The song features the ever-talented [Marsha Ambrosious](https://en.wikipedia.org/wiki/Marsha_Ambrosius) and she sings the chorus beautifully. Saigon jumps in with his trademark style:
