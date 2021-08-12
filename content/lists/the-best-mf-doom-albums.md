@@ -1,12 +1,13 @@
 ---
-title: 'The Best MF DOOM Albums'
+title: The Best MF DOOM Albums
 featured: true
-image: 'best-mf-doom-albums-image.jpg'
-summary: MF DOOM is one of the best and complex rhymers of all time. As a long-time fan of this mysterious genius, I had to rank the best MF DOOM albums in my opinion.
-createdAt: '07-15-2021'
+image: best-mf-doom-albums-image.jpg
+summary: MF DOOM is one of the best and complex rhymers of all time. As a long-time
+  fan of this mysterious genius, I had to rank the best MF DOOM albums in my opinion.
+createdAt: 2021-07-15T05:00:00Z
 draft: false
----
 
+---
 Daniel Dumile aka MF DOOM aka Viktor Vaughn aka King Geedorah, is one of my personal favorite rappers of all time and probably one of the most creative rappers I’ve ever heard. Saying that, I had to make a list of what I thought were the best MF DOOM albums.
 
 Daniel finds ways to keep the listener engaged with his rare combination of immensely dense rhyming patterns, hilarious concepts, witty sense of humor, and villainy ideas. Whether he’s crafting the beats himself or getting help from others, his production is almost always extremely fitting to the aura he wants to give off in that project. He also has some of the best and well-placed skits of any rapper with most of them being cartoon samples and villainous quotes from Doctor Doom or his enemies.
