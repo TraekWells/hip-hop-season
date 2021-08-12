@@ -35,16 +35,16 @@
           </p>
         </div>
         <div class="footer__group">
-          <p class="footer__header">Hip Hop Season</p>
+          <p class="footer__header">Hip-Hop Season</p>
           <p>
             I believe that non-mainstream hip hop is majorly underrated and
-            under-appreciated. Here at Hip Hop Season, I review non-mainstream
-            hip hop albums and share my thoughts on hip hop culture and music.
+            under-appreciated. Here at Hip-Hop Season, I review non-mainstream
+            hip-hop albums and share my thoughts on hip-hop culture and music.
           </p>
         </div>
       </div>
       <p class="copyright">
-        © {{ date }} Hip Hop Season. All rights reserved. Designed and Coded by
+        © {{ date }} Hip-Hop Season. All rights reserved. Designed and built by
         <a href="https://traek.dev" target="_blank">Traek Wells</a>.
       </p>
     </div>
