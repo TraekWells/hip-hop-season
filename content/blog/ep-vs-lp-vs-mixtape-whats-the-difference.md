@@ -1,12 +1,13 @@
 ---
 title: 'EP vs LP vs Mixtape: What’s the difference?'
 featured: true
-image: 'ep-vs-lp-vs-album-hero-image.jpg'
-summary: EPs, LPs, and mixtapes are similar but what are differences? This post will break that down so you can finally understand the common traits they share.
-createdAt: '04-20-2020'
+image: ep-vs-lp-vs-album-hero-image.jpg
+summary: EPs, LPs, and mixtapes are similar but what are differences? This post will
+  break that down so you can finally understand the common traits they share.
+createdAt: 2020-04-20T05:00:00Z
 draft: false
----
 
+---
 When you first start to listen to hip-hop (or really any music for that matter) you probably don’t even notice the EP or LP that is sometimes attached to the end of a project name. To the majority of listeners, it doesn’t really matter, they just want the listening experience right? Hip Hop has been my go-to music genre basically since I was born but I didn’t care to learn the difference between an EP, LP, album, and mixtape until a couple of years ago when I started to venture into a wider audience of music.
 
 I always wondered why some artists would put out three or four mixtapes a year and never an album while others only seemed to put out albums every year or so. Were these artists just choosing to do so as personal preference or was there a reason behind labeling a project an EP versus an LP?
