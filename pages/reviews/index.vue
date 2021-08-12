@@ -47,18 +47,6 @@ export default {
 
     return { latestReviews, allReviews }
   },
-  computed: {
-    meta() {
-      const metaData = {
-        type: 'page',
-        url: `https://hiphopseason.com/reviews`,
-        title: 'Reviews',
-        description: 'Hip hop album reviews for non-mainstream projects.',
-      }
-
-      return getMetaData(metaData)
-    },
-  },
   head() {
     return {
       title: 'Reviews',
@@ -71,6 +59,18 @@ export default {
         },
       ],
     }
+  },
+  computed: {
+    meta() {
+      const metaData = {
+        type: 'page',
+        url: `https://hiphopseason.com/reviews`,
+        title: 'Reviews',
+        description: 'Hip hop album reviews for non-mainstream projects.',
+      }
+
+      return getMetaData(metaData)
+    },
   },
 }
 </script>
