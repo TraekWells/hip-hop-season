@@ -36,6 +36,7 @@ export default {
   async asyncData({ $content, params }) {
     const review = await $content(`reviews/${params.slug}`).fetch()
     const moreReviews = await $content(`reviews`)
+      .where({ draft: false })
       .where({ title: { $ne: review.title } })
       .limit(2)
       .fetch()

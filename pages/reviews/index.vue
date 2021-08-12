@@ -36,8 +36,14 @@ import getMetaData from '@/config/getMetaData'
 
 export default {
   async asyncData({ $content }) {
-    const latestReviews = await $content('reviews').limit(2).fetch()
-    const allReviews = await $content('reviews').skip(2).fetch()
+    const latestReviews = await $content('reviews')
+      .where({ draft: false })
+      .limit(2)
+      .fetch()
+    const allReviews = await $content('reviews')
+      .where({ draft: false })
+      .skip(2)
+      .fetch()
 
     return { latestReviews, allReviews }
   },

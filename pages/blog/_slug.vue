@@ -32,6 +32,7 @@ export default {
   async asyncData({ $content, params }) {
     const blog = await $content(`blog/${params.slug}`).fetch()
     const moreBlogs = await $content(`blog`)
+      .where({ draft: false })
       .where({ title: { $ne: blog.title } })
       .limit(2)
       .fetch()

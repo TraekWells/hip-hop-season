@@ -32,6 +32,7 @@ export default {
   async asyncData({ $content, params }) {
     const list = await $content(`lists/${params.slug}`).fetch()
     const moreLists = await $content(`lists`)
+      .where({ draft: false })
       .where({ title: { $ne: list.title } })
       .limit(2)
       .fetch()

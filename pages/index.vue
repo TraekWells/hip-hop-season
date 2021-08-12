@@ -82,12 +82,15 @@ export default {
   components: { ArrowRightIcon },
   async asyncData({ $content }) {
     const featuredReviews = await $content('reviews')
+      .where({ draft: false })
       .where({ featured: true })
       .fetch()
     const allReviews = await $content('reviews')
+      .where({ draft: false })
       .where({ featured: false })
       .fetch()
     const featuredBlogs = await $content('blog')
+      .where({ draft: false })
       .where({ featured: true })
       .fetch()
     const allBlogs = await $content('blog').where({ featured: false }).fetch()
