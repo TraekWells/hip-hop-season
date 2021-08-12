@@ -1,15 +1,25 @@
 ---
-title: 'Monday'
+title: Monday
 artist: Joell Ortiz
 featured: false
-finalThoughts: This album is extremely well done and is a testament to Joell’s dedication to his craft. It’s the perfect length for someone who’s new to Joell Ortiz and for hardcore fans alike. What makes this album easy to listen to is the smooth production and sharp, refined lyrics. Joell once again proves he can carry a project by himself without changing who he is at the core.
-bottomLine: The Brooklyn native member of the former rap super-group Slaughterhouse delivers his fifth studio album, proving he’s dedicated to the lyricism that made him a rap maestro.
-image: 'monday-album-cover.jpg'
-rating: { lyrics: 30, production: 30, replayValue: 10, variety: 10 }
-createdAt: '10-08-2020'
+finalThoughts: This album is extremely well done and is a testament to Joell’s dedication
+  to his craft. It’s the perfect length for someone who’s new to Joell Ortiz and for
+  hardcore fans alike. What makes this album easy to listen to is the smooth production
+  and sharp, refined lyrics. Joell once again proves he can carry a project by himself
+  without changing who he is at the core.
+bottomLine: The Brooklyn native member of the former rap super-group Slaughterhouse
+  delivers his fifth studio album, proving he’s dedicated to the lyricism that made
+  him a rap maestro.
+image: monday-album-cover.jpg
+rating:
+  lyrics: 30
+  production: 30
+  replayValue: 10
+  variety: 10
+createdAt: 2020-10-08T05:00:00Z
 draft: false
----
 
+---
 Joell Ortiz wasn’t the most popular member of Slaughterhouse but his writing skills were on par with, or better than anyone in the group. One could also argue that he has the best discography of anyone in the group. Since the disbandment of Slaughterhouse, Joell Ortiz has put out nothing but high quality projects while sticking to his lyrics-first approach.
 
 _Monday_ is unique for an album name. Most people dread Mondays because it’s the start of the new work week where they have to go back to the job that they hate. The album opens with a track titled ‘Monday’ and it’s a short skit of someone explaining how Mondays are for the hardest-working people out there. All of the go getters.
