@@ -7,6 +7,7 @@ bottomLine: Following his release of successful Game Over EP two-years prior, th
 image: 'psychodrama-album-cover.jpg'
 rating: { lyrics: 30, production: 32, replayValue: 11, variety: 14 }
 createdAt: '05-13-2020'
+draft: false
 ---
 
 The British rapper and songwriter Dave is a unique artist and a talented musician. He’s also another young artist, 21 at the time of his writing, who seems to have his sights set on the bigger picture when it comes to music content. He’s not afraid to put his personal problems on tracks and doesn’t shy away from rapping about political issues around the world.

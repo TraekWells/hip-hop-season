@@ -7,6 +7,7 @@ bottomLine: Sticking to the formula that made Evidence’s fanbase love him, the
 image: 'weather-or-not-album-cover.jpg'
 rating: { lyrics: 29, production: 31, replayValue: 10, variety: 11 }
 createdAt: '04-28-2020'
+draft: false
 ---
 
 The [Rhymesayers](https://rhymesayers.com/artists/evidence) member Evidence released his third solo album right as the year 2018 started, almost exactly four years after this second solo album _Lord Steppington_ came out. Evidence has always been a no-nonsense spitter who doesn’t rely on gimmicks, trendy sounds or over-engineered production. Instead, he leans on his message, his self-awareness, and his hip hop roots to deliver the best possible sound for his audience.

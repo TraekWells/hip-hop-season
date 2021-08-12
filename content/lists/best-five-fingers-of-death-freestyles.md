@@ -4,6 +4,7 @@ featured: true
 image: 'top-5-five-fingers-of-death-hero-image.jpg'
 summary: The five fingers of death is a challenge from by Sway to test rappers' ability to freestyle over five beats. Here are the best five fingers of death freestyles to me.
 createdAt: '05-01-2020'
+draft: false
 ---
 
 When talking about the best five fingers of death freestyles, you have to mention [Sway Calloway](https://swaysuniverse.com/about/) and [Heather B. Gardner](https://en.wikipedia.org/wiki/Heather_B._Gardner). They’re both champions to the hip hop community and use their platform to give artists the opportunity to get their name out and showcase their skills.

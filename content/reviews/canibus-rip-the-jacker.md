@@ -7,6 +7,7 @@ bottomLine: With a much-needed boost in production from Stoupe the Enemy of Mank
 image: 'rip-the-jacker-album-cover.jpg'
 rating: { lyrics: 35, production: 33, replayValue: 10, variety: 8 }
 createdAt: '05-26-2020'
+draft: false
 ---
 
 It would be next to impossible to name rappers on one hand who have the vocabulary that Canibus does. Hell, it would be difficult to name one, to be honest. This review is being written in 2020 and since the release of his debut album _Can-I-Bus_ in 1998, Canibus has yet to fail to impress me lyrically over the years. With a seemingly never-ending supply of words to put together, he always finds a way to make me Google something new.

@@ -4,6 +4,7 @@ featured: true
 image: 'the-bigger-picture-hero-image.jpg'
 summary: Following the aftermath of the unjust murder of George Floyd, Lil Baby releases the powerful, heartfelt track The Bigger Picture in hopes of positive change.
 createdAt: '07-09-2020'
+draft: false
 ---
 
 “The Bigger Picture” wasn’t a track I would have predicted from Lil Baby. I won’t lie and say I’m familiar with all of his songs but I’ve heard a good amount and I think I know what lane he’s in. His music is enjoyable to me personally, but it was never deep and meaningful like “The Bigger Picture” was.

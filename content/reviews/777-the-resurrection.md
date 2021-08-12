@@ -7,6 +7,7 @@ bottomLine: Saigon’s Strange Music debut is a preview of what happens when a t
 image: '777-album-cover.jpg'
 rating: { lyrics: 29, production: 30, replayValue: 9, variety: 10 }
 createdAt: '10-24-2020'
+draft: false
 ---
 
 Saigon is back after a six-year gap between his last project release and _777: The Resurrection_. The veteran has recently inked a deal with [Strange Music](https://www.strangemusicinc.com/) which I believe to be a great move for his career. Being 43 at the time of this writing, he has always appeared to put lyrics and wordplay above all else and I think [Tech N9ne](https://en.wikipedia.org/wiki/Tech_N9ne)’s label is going to give him the production value he never had in the past.

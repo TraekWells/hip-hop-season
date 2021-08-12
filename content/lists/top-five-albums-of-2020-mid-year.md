@@ -4,6 +4,7 @@ featured: false
 image: 'top-5-albums-of-2020-mid-year-hero.jpg'
 summary: This year has been trash for the most part but some quality albums have been released so far. Here are my top five albums of 2020.
 createdAt: '08-07-2020'
+draft: false
 ---
 
 I’ve seen a handful of lists for the top five albums of 2020. What’s interesting about them all is that they include the same albums, more or less, depending on the publication. The reason that’s interesting is that it’s clear that quality music stands out and makes a lasting impression on listeners.

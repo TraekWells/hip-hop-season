@@ -7,6 +7,7 @@ bottomLine: At this point, Roc Marciano’s gritty, dark rapping ability should 
 image: 'behold-a-dark-horse-album-cover.jpg'
 rating: { lyrics: 31, production: 31, replayValue: 13, variety: 11 }
 createdAt: '04-19-2020'
+draft: false
 ---
 
 _Behold A Dark Horse_ is Roc Marciano’s second solo album of 2018 and it picks up right where [The Bitter Dose](https://open.spotify.com/album/2fSadHflGE0MhtkwiymFBg?si=zXSFcTfmQimR8Lmca8qdDA) left off. Anyone who knows Roc knows what they’re going to get and this album is no different, and that’s not a bad thing. He delivers verses with flawless metaphors and just the right amount of syllables to let the bars breathe.

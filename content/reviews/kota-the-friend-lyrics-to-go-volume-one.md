@@ -7,6 +7,7 @@ bottomLine: Clocking in at just over 14 minutes in length, Lyrics to Go, Vol. 1 
 image: 'lyrics-to-go-album-cover.jpg'
 rating: { lyrics: 29, production: 30, replayValue: 15, variety: 11 }
 createdAt: '04-14-2020'
+draft: false
 ---
 
 “F\*\*\* your opinion, I was doing good without it, I been living, I been minding my business.” Those are the first lyrics you hear from this album and it sets the tone for what’s to come throughout the rest of the project. Trusting yourself, loving the people around you, and having an end goal are themes that come up plenty of times. You can tell from his [Instagram](https://www.instagram.com/kotathefriend/) that he values family and flexing his creative muscle. For only being 26 at the time of writing this review, it appears Kota has an older person’s wisdom for such a young age.

@@ -7,6 +7,7 @@ bottomLine: The Brooklyn native member of the former rap super-group Slaughterho
 image: 'monday-album-cover.jpg'
 rating: { lyrics: 30, production: 30, replayValue: 10, variety: 10 }
 createdAt: '10-08-2020'
+draft: false
 ---
 
 Joell Ortiz wasn’t the most popular member of Slaughterhouse but his writing skills were on par with, or better than anyone in the group. One could also argue that he has the best discography of anyone in the group. Since the disbandment of Slaughterhouse, Joell Ortiz has put out nothing but high quality projects while sticking to his lyrics-first approach.
