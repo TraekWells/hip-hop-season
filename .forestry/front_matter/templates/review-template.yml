@@ -8,6 +8,10 @@ fields:
 - type: text
   name: artist
   label: Artist
+- name: draft
+  type: boolean
+  label: Draft
+  default: true
 - type: boolean
   name: featured
   label: Featured?
