@@ -1,12 +1,14 @@
 ---
-title: 'Best Five Fingers Of Death Freestyles'
+title: Best Five Fingers Of Death Freestyles
 featured: true
-image: 'top-5-five-fingers-of-death-hero-image.jpg'
-summary: The five fingers of death is a challenge from by Sway to test rappers' ability to freestyle over five beats. Here are the best five fingers of death freestyles to me.
-createdAt: '05-01-2020'
+image: top-5-five-fingers-of-death-hero-image.jpg
+summary: The five fingers of death is a challenge from by Sway to test rappers' ability
+  to freestyle over five beats. Here are the best five fingers of death freestyles
+  to me.
+createdAt: 2020-05-01T05:00:00Z
 draft: false
----
 
+---
 When talking about the best five fingers of death freestyles, you have to mention [Sway Calloway](https://swaysuniverse.com/about/) and [Heather B. Gardner](https://en.wikipedia.org/wiki/Heather_B._Gardner). They’re both champions to the hip hop community and use their platform to give artists the opportunity to get their name out and showcase their skills.
 
 Together, they host the show [Sway In The Morning](https://www.youtube.com/channel/UCuS96jkLKpTaGB_OWnwZV_A) where they have a multitude of guests on to talk about a wide range of topics. The backgrounds of these guests range from rappers, singers, actors, politicians, and even [astrophysicists](https://www.youtube.com/watch?v=ZetaeaEvNkI). This show also has one of the most recognizable intros on YouTube, where a bunch of people famous rappers and actors are saying, “Sway”, “Sway”, “Sway”, “In the morning”, “In the morning”, “In the morning”, “Wake yo punk a\*\* up”, “Get that crust out your eyes”.
