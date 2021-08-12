@@ -5,6 +5,10 @@ fields:
 - type: text
   name: title
   label: Title
+- name: draft
+  type: boolean
+  label: Draft
+  default: true
 - type: boolean
   name: featured
   label: Featured
