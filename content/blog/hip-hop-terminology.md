@@ -2,7 +2,7 @@
 draft: true
 title: Hip-Hop Terminology
 featured: false
-image: ''
+image: static/images/images/default-card-img.jpg
 summary: ''
 createdAt: 2021-08-27T05:00:00Z
 
