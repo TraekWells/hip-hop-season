@@ -1,13 +1,14 @@
 ---
 title: Lil Baby’s Releases The Powerful The Bigger Picture
-featured: true
 image: the-bigger-picture-hero-image.jpg
-summary: Following the aftermath of the unjust murder of George Floyd, Lil Baby releases
+summary:
+  Following the aftermath of the unjust murder of George Floyd, Lil Baby releases
   the powerful, heartfelt track The Bigger Picture in hopes of positive change.
 createdAt: 2020-07-07T05:00:00Z
 draft: false
-
+featured: true
 ---
+
 “The Bigger Picture” wasn’t a track I would have predicted from Lil Baby. I won’t lie and say I’m familiar with all of his songs but I’ve heard a good amount and I think I know what lane he’s in. His music is enjoyable to me personally, but it was never deep and meaningful like “The Bigger Picture” was.
 
 One thing that sets Lil Baby apart from his peers in my eyes is the fact that his rapping pace is perfect and he never seems to force anything onto a beat. It’s almost hard to not like because he’s rapping so rapidly on dope beats. That’s not to say that it’s necessarily fast rap, but it’s non-stop and you catch yourself nodding your head the whole time. He brings that same style to “The Bigger Picture” but this time, he’s speaking from the heart and shows a bit of vulnerability.

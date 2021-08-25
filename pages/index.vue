@@ -93,7 +93,10 @@ export default {
       .where({ draft: false })
       .where({ featured: true })
       .fetch()
-    const allBlogs = await $content('blog').where({ featured: false }).fetch()
+    const allBlogs = await $content('blog')
+      .where({ draft: false })
+      .where({ featured: false })
+      .fetch()
 
     return { featuredReviews, allReviews, featuredBlogs, allBlogs }
   },
