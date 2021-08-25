@@ -29,4 +29,5 @@ fields:
     time_format: 
     display_utc: false
 pages:
+- content/blog/hip-hop-terminology.md
 - content/lists/top-five-albums-of-2021-mid-year.md
