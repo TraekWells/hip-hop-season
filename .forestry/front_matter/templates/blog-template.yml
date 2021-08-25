@@ -5,13 +5,6 @@ fields:
 - type: text
   name: title
   label: Title
-- name: draft
-  type: boolean
-  label: Draft
-  default: true
-- type: boolean
-  name: featured
-  label: Featured
 - type: file
   name: image
   label: Image
@@ -28,6 +21,13 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: draft
+  type: boolean
+  label: Draft
+  default: true
+- type: boolean
+  name: featured
+  label: Featured
 pages:
 - content/blog/hip-hop-terminology.md
 - content/lists/top-five-albums-of-2021-mid-year.md
