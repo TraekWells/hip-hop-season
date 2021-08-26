@@ -12,7 +12,7 @@ finalThoughts:
 bottomLine:
   Sticking to the formula that made Evidence’s fanbase love him, the California
   native delivers a timeless, boom bap album that focuses on blessings and curses.
-image: '/images/weather-or-not-album-cover.jpg'
+image: weather-or-not-album-cover.jpg
 rating:
   lyrics: 29
   production: 31
