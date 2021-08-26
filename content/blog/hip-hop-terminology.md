@@ -15,9 +15,9 @@ featured: false
 
 ## Mixtape
 
-## Double Entredre
+## Double Entendre
 
-## Triple Entredre
+## Triple Entendre
 
 ## Production
 
