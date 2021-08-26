@@ -1,13 +1,14 @@
 ---
 title: Psychodrama
 artist: Dave
-featured: false
-finalThoughts: This is one of the best albums that was released in 2019 and it’s certainly
+finalThoughts:
+  This is one of the best albums that was released in 2019 and it’s certainly
   the best album I’ve heard from a British rapper. This project gives off the vibe
   of a call for a change instead of ‘just’ being a rap album. The lyricism, the graceful
   production, and the powerful messages all combine for an impressive debut album
   from Dave. I'm looking forward to the next one.
-bottomLine: Following his release of successful Game Over EP two-years prior, the
+bottomLine:
+  Following his release of successful Game Over EP two-years prior, the
   British rapper Dave continues to lean on his strengths and natural music ability
   to deliver an impressive debut album filled with personal battles and struggles.
 image: psychodrama-album-cover.jpg
@@ -18,8 +19,9 @@ rating:
   variety: 14
 createdAt: 2020-05-13T05:00:00Z
 draft: false
-
+featured: false
 ---
+
 The British rapper and songwriter Dave is a unique artist and a talented musician. He’s also another young artist, 21 at the time of his writing, who seems to have his sights set on the bigger picture when it comes to music content. He’s not afraid to put his personal problems on tracks and doesn’t shy away from rapping about political issues around the world.
 
 [NPR](https://www.youtube.com/channel/UC4eYXhJI4-7wSWc8UNRwD4A) gave Dave the chance to perform a few songs in front of a small crowd. The songs he chose to perform were perfect in representing the kind artist Dave is. First, he performed “Location” which is a song that served as one of the singles for _Psychodrama._ He ended with two songs that have deep meanings and solemn messages over the piano and guitar. Overall it was a great performance. Check it out below.

@@ -1,17 +1,18 @@
 ---
 title: Weather Or Not
 artist: Evidence
-featured: false
-finalThoughts: There’s not a lot to say about Weather or Not. It is a very solid album
+finalThoughts:
+  There’s not a lot to say about Weather or Not. It is a very solid album
   with fantastic production from The Alchemist, Evidence himself, and a handful of
   others. The lyrics are good, powerful, and dark at moments. Even though it’s 56
   minutes long, it doesn’t feel like the album drags on or is a chore to listen to.
   When you press play on any Evidence project, you know what you’re going to get.
   He’s an underground legend who gave us listeners another complete album from start
   to finish, we appreciate it.
-bottomLine: Sticking to the formula that made Evidence’s fanbase love him, the California
+bottomLine:
+  Sticking to the formula that made Evidence’s fanbase love him, the California
   native delivers a timeless, boom bap album that focuses on blessings and curses.
-image: "/images/weather-or-not-album-cover.jpg"
+image: '/images/weather-or-not-album-cover.jpg'
 rating:
   lyrics: 29
   production: 31
@@ -19,8 +20,9 @@ rating:
   variety: 11
 createdAt: 2020-04-28T05:00:00.000+00:00
 draft: false
-
+featured: false
 ---
+
 The [Rhymesayers](https://rhymesayers.com/artists/evidence) member Evidence released his third solo album right as the year 2018 started, almost exactly four years after this second solo album _Lord Steppington_ came out. Evidence has always been a no-nonsense spitter who doesn’t rely on gimmicks, trendy sounds or over-engineered production. Instead, he leans on his message, his self-awareness, and his hip hop roots to deliver the best possible sound for his audience.
 
 The opening track “The Factory” is a banger and Evidence starts us off with his trademark flow. The beat on this makes it near impossible to not bop your head to. Being 43 years old at the time of writing this, Evidence does seem to carry that old-school hip hop sound with him wherever he goes. He isn’t a punchline rapper per se but that doesn’t mean he doesn’t know how to deliver heavy-handed bars _(“I got bars like I'm separating groceries / I'm celebrating globally, you're celebrating locally”)_.
