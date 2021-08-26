@@ -11,13 +11,13 @@ finalThoughts: There’s not a lot to say about Weather or Not. It is a very sol
   to finish, we appreciate it.
 bottomLine: Sticking to the formula that made Evidence’s fanbase love him, the California
   native delivers a timeless, boom bap album that focuses on blessings and curses.
-image: weather-or-not-album-cover.jpg
+image: "/images/weather-or-not-album-cover.jpg"
 rating:
   lyrics: 29
   production: 31
   replayValue: 10
   variety: 11
-createdAt: 2020-04-28T05:00:00Z
+createdAt: 2020-04-28T05:00:00.000+00:00
 draft: false
 
 ---
