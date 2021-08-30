@@ -7,15 +7,15 @@ draft: true
 featured: false
 
 ---
-Hip-hop is a culture in itself that has its own set of terminology. 
+Hip-hop is a culture in itself that has its own set of terminology.
 
 ## Bar
 
 Typically, a bar in music refers to a section of music that holds a certain number of beats.
 
-In hip-hop, it's a common occuarance to hear a four-count.
+In hip-hop, it's a common occurrence to hear a four-count.
 
-<video-embed link=""></video-embed>
+<video-embed link="https://www.youtube.com/embed/KeYgudKGuUQ</video-embed>
 
 ## Long Play (LP)
 
