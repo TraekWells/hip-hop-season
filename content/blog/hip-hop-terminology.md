@@ -15,7 +15,7 @@ Typically, a bar in music refers to a section of music that holds a certain numb
 
 In hip-hop, it's a common occurrence to hear a four-count.
 
-<video-embed link="https://www.youtube.com/embed/KeYgudKGuUQ</video-embed>
+<video-embed link="https://www.youtube.com/embed/KeYgudKGuUQ"></video-embed>
 
 ## Long Play (LP)
 
