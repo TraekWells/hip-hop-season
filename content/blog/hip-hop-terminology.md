@@ -11,7 +11,7 @@ Hip-hop is a culture in itself that has its own set of terminology.
 
 ## Bar
 
-A bar refers to a section of music that holds a certain number of beats. Each section can hold a number of beats ranging from three, four, six, or eight (these are the most common). 
+A bar refers to a section of music that holds a certain number of beats. Each one of these sections can hold a number of beats ranging from three, four, six, or eight (these are the most common).
 
 In hip-hop, a bar is the lyrics that a rapper says over a four-count of music.
 
