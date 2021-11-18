@@ -1,14 +1,13 @@
 ---
 title: The Best MF DOOM Albums
-image: best-mf-doom-albums-image.jpg
-summary:
-  MF DOOM is one of the best and complex rhymers of all time. As a long-time
-  fan of this mysterious genius, I had to rank the best MF DOOM albums in my opinion.
-createdAt: 2021-07-15T05:00:00Z
-draft: false
 featured: true
----
+image: best-mf-doom-albums-image.jpg
+summary: MF DOOM is one of the best and complex rhymers of all time. As a long-time
+  fan of this mysterious genius, I had to rank the best MF DOOM albums in my opinion.
+createdAt: 2021-07-15T05:00:00.000+00:00
+draft: false
 
+---
 Daniel Dumile aka MF DOOM aka Viktor Vaughn aka King Geedorah, is one of my personal favorite rappers of all time and probably one of the most creative rappers I’ve ever heard. Saying that, I had to make a list of what I thought were the best MF DOOM albums.
 
 Daniel finds ways to keep the listener engaged with his rare combination of immensely dense rhyming patterns, hilarious concepts, witty sense of humor, and villainy ideas. Whether he’s crafting the beats himself or getting help from others, his production is almost always extremely fitting to the aura he wants to give off in that project. He also has some of the best and well-placed skits of any rapper with most of them being cartoon samples and villainous quotes from Doctor Doom or his enemies.
@@ -181,7 +180,7 @@ Just remember ALL CAPS when you spell the man name.
 
 Although it’s not number one on this list, _Vaudeville Villian_ is the DOOM album that gives me the most enjoyment and it’s the album I find myself playing the most. Rapping under the alter ego Viktor Vaughn, the vibe of this project is laced with weird, eerie scientific beats and it sounds like you’re in a science lab for half of the project.
 
-MF DOOM touches on a wide variety of topics on this album and I think it’s the project that shows the most versatility in his content. For example, he has this track titled “Let Me Watch” where he’s trying to court this girl and he slips up and calls her a h** by accident. The featured rapper Apani B then goes on to say “I’d rather masturbate than f\*** with Vik Vaughn” in which DOOM says “Let me watch”. Just a funny story all around.
+MF DOOM touches on a wide variety of topics on this album and I think it’s the project that shows the most versatility in his content. For example, he has this track titled “Let Me Watch” where he’s trying to court this girl and he slips up and calls her a h** by accident. The featured rapper Apani B then goes on to say “I’d rather masturbate than f*** with Vik Vaughn” in which DOOM says “Let me watch”. Just a funny story all around.
 
 Also on “Modern Day Mugging”, DOOM is breaking down how to carry out an armed robbery while dropping lines like:
 
@@ -191,8 +190,6 @@ And your girls earrings, and what you wearin’ /
 </quote>
 
 Interestingly this album has a slew of producers credited for different tracks yet the album still feels cohesive. Another great aspect about _Vaudeville Villian_ is you actually get a lot of DOOM rapping on it, which isn’t the case for all of his projects.
-
-What I love most about _Vaudeville Villian_ is that DOOM sounds hungry. He’s aggressive and using his wordplay and stories to portray his skill and it’s the first install me
 
 ## 1. Mm..Food
 
@@ -219,6 +216,6 @@ A real price-saver way to acquire nice whips /
 
 All in all, I feel that _Mm..Food_ is the most complete hip hop album in DOOM’s already impressive catalog. As previously mentioned, between 2003 and 2005, I feel that DOOM was in his absolute prime and could not miss. The beats are fire, the lyrics are as sharp and complex as ever and the best part about it, there is only a minimal amount of features.
 
---
+\--
 
 There you have it. I don’t think DOOM has any bad album releases which is impressive considering the tear he was on between 2003 and 2005. It was difficult to rank the last four albums but I enjoy them all somewhat equally but at the end of the day, MM..Food is my personal favorite and it’s what I think is the best album in DOOM’s catalog.
