@@ -2,7 +2,7 @@ const type = 'website'
 const url = 'https://hiphopseason.com'
 const title = 'Your Home for Hip Hop Album Reviews | Hip Hop Season'
 const description =
-  'Your home for non-mainstream hip hop album reviews and blog for everything related to hip hop music and the culture.'
+  'Your home for underground hip hop album reviews and blog for everything related to hip hop music and the culture.'
 const image = '/images/default-card-img.jpg'
 
 export default (meta) => {

@@ -22,7 +22,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Your home for non-mainstream hip hop album reviews and blog for everything related to hip hop music and the culture.',
+          'Your home for underground hip hop album reviews and blog for everything related to hip hop music and the culture.',
       },
 
       { property: 'og:image:width', content: '740' },

@@ -66,7 +66,7 @@ export default {
         type: 'page',
         url: `https://hiphopseason.com/reviews`,
         title: 'Reviews',
-        description: 'Hip hop album reviews for non-mainstream projects.',
+        description: 'Hip hop album reviews for underground projects.',
       }
 
       return getMetaData(metaData)

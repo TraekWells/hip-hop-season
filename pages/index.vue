@@ -4,9 +4,9 @@
       <div class="container">
         <h1 class="mb-4">Welcome to Hip-Hop Season</h1>
         <p class="lead">
-          Your home for <span class="underline">non-mainstream</span> Hip-Hop
-          album reviews and blogs about all things related to Hip-Hop music and
-          the culture.
+          Your home for <span class="underline">underground</span> Hip-Hop album
+          reviews and blogs about all things related to Hip-Hop music and the
+          culture.
         </p>
         <div class="button-group">
           <nuxt-link to="/reviews" class="button button__primary mr-4"

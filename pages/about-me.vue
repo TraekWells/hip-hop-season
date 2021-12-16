@@ -28,9 +28,9 @@
           <div class="about-section__content">
             <p>
               Hip hop has been a part of my life since I started listening to
-              music, specifically non-mainstream (non-popular) hip hop. I
-              created this blog out of my love for rap music and I hope to bring
-              a little more light to the non-mainstream scene.
+              music, specifically underground hip hop. I created this blog out
+              of my love for rap music and I hope to bring a little more light
+              to the underground scene.
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ export default {
         url: `https://hiphopseason.com/about-me`,
         title: 'About Me',
         description:
-          'Hip hop has been a part of my life since I started listening to music, specifically non-mainstream (non-popular) hip hop. I created this blog out of my love',
+          'Hip hop has been a part of my life since I started listening to music, specifically underground hip hop. I created this blog out of my love',
       }
 
       return getMetaData(metaData)
