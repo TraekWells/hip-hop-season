@@ -1,9 +1,6 @@
 <template>
   <main>
-    <PageHeader
-      title="Contact Me"
-      subtitle="Everybody has their own hip hop music lists. Here are a few of mine."
-    />
+    <PageHeader title="Contact Me" />
     <div class="contact-section">
       <div class="container">
         <p>
