@@ -45,7 +45,7 @@
       </div>
       <p class="copyright">
         © {{ date }} Hip-Hop Season. All rights reserved. Designed and built by
-        <a href="https://traek.dev" target="_blank">Traek Wells</a>.
+        <a href="https://traekwells.com" target="_blank">Traek Wells</a>.
       </p>
     </div>
   </footer>
