@@ -3,15 +3,15 @@ import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
-    <nav className={styles.nav}>
-      <div className={styles.container}>
+    <nav className={styles["nav"]}>
+      <div className="container">
         <Logo />
-        <ul className={styles.nav__list}>
-          <li className={styles.nav__item}>Reviews</li>
-          <li className={styles.nav__item}>Blog</li>
-          <li className={styles.nav__item}>Lists</li>
-          <li className={styles.nav__item}>Contact Me</li>
-          <div className={styles.social}>
+        <ul className={styles["nav__list"]}>
+          <li className={styles["nav__item"]}>Reviews</li>
+          <li className={styles["nav__item"]}>Blog</li>
+          <li className={styles["nav__item"]}>Lists</li>
+          <li className={styles["nav__item"]}>Contact Me</li>
+          <div className={styles["social"]}>
             <a className={styles["nav__social-link"]} target="_blank">
               <p>Twitter Icon</p>
             </a>
@@ -20,7 +20,7 @@ const Navbar = () => {
             </a>
           </div>
         </ul>
-        <div className={styles.nav__burger}>
+        <div className={styles["nav__burger"]}>
           <span></span>
           <span></span>
           <span></span>

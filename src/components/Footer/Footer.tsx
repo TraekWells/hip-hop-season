@@ -1,10 +1,17 @@
 import Link from "next/link";
+import React, { useEffect } from "react";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
+  // const [date, setDate] = React.useState(null);
+
+  // useEffect(() => {
+  //   setDate(0);
+  // }, []);
+
   return (
     <footer className={styles["footer"]}>
-      <div className={styles["container"]}>
+      <div className="container">
         <div className={styles["footer__nav"]}>
           <div className={styles["footer_group"]}>
             <p className={styles["footer__header"]}>Pages</p>
