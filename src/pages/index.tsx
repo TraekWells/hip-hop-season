@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 
 export default function Home() {
@@ -14,7 +14,14 @@ export default function Home() {
       </Head>
       <Navbar />
       <main>
-        <header className="header header--home">
+        <Header type="large" title="Welcome to Hip Hop Season">
+          <p className="lead">
+            Your home for <span className="underline">underground</span> Hip-Hop
+            album reviews and blogs about all things related to Hip-Hop music
+            and the culture.
+          </p>
+        </Header>
+        {/* <header className="header header--home">
           <div className="container">
             <h1 className="mb-4">Welcome to Hip-Hop Season</h1>
             <p className="lead">
@@ -31,7 +38,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </header>
+        </header> */}
       </main>
       <Footer />
     </>
