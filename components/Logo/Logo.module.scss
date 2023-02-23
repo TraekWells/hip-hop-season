@@ -1,0 +1,22 @@
+.logo {
+  max-width: 7rem;
+  width: 7rem;
+  height: 5.9rem;
+  z-index: 10;
+
+  @include respond(phone) {
+    max-width: 6rem;
+  }
+
+  &__black {
+    fill: $color-gray-dark;
+  }
+
+  &__white {
+    fill: #ffffff;
+  }
+
+  &__purple {
+    fill: $color-primary-dark;
+  }
+}
