@@ -1,17 +1,36 @@
 import Logo from "../Logo";
+import Link from "next/link";
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
   return (
     <nav className={styles["nav"]}>
-      <div className="container">
-        <Logo />
+      <div className={`${styles["container"]} container`}>
+        <Link href="/" className={styles["nav__logo"]}>
+          <Logo />
+        </Link>
         <ul className={styles["nav__list"]}>
-          <li className={styles["nav__item"]}>Reviews</li>
-          <li className={styles["nav__item"]}>Blog</li>
-          <li className={styles["nav__item"]}>Lists</li>
-          <li className={styles["nav__item"]}>Contact Me</li>
-          <div className={styles["social"]}>
+          <li className={styles["nav__item"]}>
+            <Link href="/reviews" className={styles["nav__link"]}>
+              Reviews
+            </Link>
+          </li>
+          <li className={styles["nav__item"]}>
+            <Link href="/blog" className={styles["nav__link"]}>
+              Blog
+            </Link>
+          </li>
+          <li className={styles["nav__item"]}>
+            <Link href="/lists" className={styles["nav__link"]}>
+              Lists
+            </Link>
+          </li>
+          <li className={styles["nav__item"]}>
+            <Link href="/contact" className={styles["nav__link"]}>
+              Contact Me
+            </Link>
+          </li>
+          <div className={styles["nav__social"]}>
             <a className={styles["nav__social-link"]} target="_blank">
               <p>Twitter Icon</p>
             </a>

@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Navbar from "../components/Navbar";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,35 +11,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <main>
-        <Header type="large" title="Welcome to Hip Hop Season">
-          <p className="lead">
-            Your home for <span className="underline">underground</span> Hip-Hop
-            album reviews and blogs about all things related to Hip-Hop music
-            and the culture.
-          </p>
-        </Header>
-        {/* <header className="header header--home">
-          <div className="container">
-            <h1 className="mb-4">Welcome to Hip-Hop Season</h1>
-            <p className="lead">
-              Your home for <span className="underline">underground</span>{" "}
-              Hip-Hop album reviews and blogs about all things related to
-              Hip-Hop music and the culture.
-            </p>
-            <div className="button-group">
-              <Link href="/reviews" className="button button__primary mr-4">
-                Read the Reviews
-              </Link>
-              <Link href="/blog" className="color-white">
-                Read the Blog
-              </Link>
-            </div>
-          </div>
-        </header> */}
-      </main>
-      <Footer />
+      <Header type="large" title="Welcome to Hip Hop Season">
+        <p className="lead">
+          Your home for <span className="underline">underground</span> Hip-Hop
+          album reviews and blogs about all things related to Hip-Hop music and
+          the culture.
+        </p>
+        <div className="button-group">
+          <Link href="/reviews" className="button button__primary mr-4">
+            Read the Reviews
+          </Link>
+          <Link href="/blog" className="color-white">
+            Read the Blog
+          </Link>
+        </div>
+      </Header>
     </>
   );
 }
