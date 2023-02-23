@@ -1,0 +1,23 @@
+/*
+phone =         500px
+tablet-port =   750px
+tablet-land =   900px
+*/
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 31.25em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet-port {
+    @media only screen and (max-width: 46.875em) {
+      @content;
+    }
+  }
+  @if $breakpoint == tablet-land {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+}
