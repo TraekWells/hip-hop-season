@@ -1,4 +1,15 @@
 .link-with-icon {
   display: flex;
   align-items: center;
+
+  &:hover {
+    .icon {
+      transform: translateX(0.6rem);
+    }
+  }
+}
+
+.icon {
+  margin-left: 0.5rem;
+  transition: 0.2s ease transform;
 }

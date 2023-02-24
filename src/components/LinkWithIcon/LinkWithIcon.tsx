@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./LinkWithIcon.module.scss";
+import { ArrowRight } from "react-feather";
 
 interface LinkWithIconProps {
   href: string;
@@ -19,7 +20,7 @@ const LinkWithIcon = ({
       className={`${styles["link-with-icon"]} ${className}`}
       {...props}
     >
-      {children} (icon)
+      {children} <ArrowRight className={styles["icon"]} />
     </Link>
   );
 };

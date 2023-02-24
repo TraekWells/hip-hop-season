@@ -1,0 +1,146 @@
+---
+title: Top Five Albums of 2020 (End-Year)
+image: top-5-albums-2020-end-year.jpg
+summary:
+  2020 has been a terrible year for the world but it's been a fantastic year
+  for hip hop. Here are the top five albums of 2020 with some honorable mentions.
+createdAt: 2020-12-29T06:00:00Z
+draft: false
+featured: false
+---
+
+I’m going to say it straight from the jump, the top five albums of 2020 was one of the hardest lists I’ve ever had to come up with. This year was filled with so many dope albums, I considered making it a top 10 albums of 2020 instead of five.
+
+I decided to stay true to what I said I was going to do and keep it at five but in reality, there are about 10 albums that could be number one. A few albums from my [best mid-year](/lists/top-five-albums-of-2020-mid-year) albums made it to this list but most of them got knocked down to the honorable mentions.
+
+Extremely tough choices on this one but I made my decisions the same way I always do, based on lyrics, production, variety and replay value. Let’s get into the top five albums of 2020.
+
+## 5. The Price of Tea in China
+
+![The Price of Tea in China album cover](/images/the-price-of-tea-in-china-album-cover.jpg)
+
+This is the first album that made it to the top five albums of 2020 from my [mid-year list](/lists/top-five-albums-of-2020-mid-year). Boldy James delivered four projects in 2020, and they were all good. The Price of Tea in China is one of those albums that fits into any environment. You can play it in the car, as background music or on full blast in your headphones.
+
+The deepness of Boldy’s voice mixed with the soft but also hard-hitting production really pulls you into the project. He makes you believe every word he’s saying.
+
+Having only four featured artists was a smart move for an album that only runs about 40 minutes. Vince Staples, Benny the Butcher, Freddie Gibbs and Evidence is a killer lineup of guest verses but Boldy never takes the backseat to any of them.
+
+Out of the four projects that Boldy released this year, The Price of Tea in China is the album that I go back to the most. Fantastic year for Boldy.
+
+### Standout Tracks
+
+- Surf & Turf
+- Scrape the Bowl
+- Gray October
+
+## 4. The Sharecropper’s Daughter
+
+![](/images/the-sharecroppers-daughter-album-cover.jpg)
+
+The Sharecropper’s Daughter is the first piece of work I’ve heard from Sa-Roc but I fell in love with it immediately. This is her debut album with [Rhymesayers](https://rhymesayers.com/artists/saroc) and it’s produced almost in its entirety by Sol Messiah.
+
+Sa-Roc has that aura about her music where you feel like she was born to rap. This project brings everything together. Her voice, her delivery and her lyrical substance over 50 minutes of beautiful beats make this album an easy listen.
+
+<quote song="Hand of God">
+I came too far and fought too hard to be a prior threat /
+There’s Clear and Present Danger lurking in my dialect /
+And turbulence in every piece that I ain’t fired yet /
+I’m peaking, I’m Mt. Zion. Holy shit, it’s prophesied I guess /
+</quote>
+
+I also have to mention that “The Black Renaissance” with Black Thought might be the best song of the year. They both absolutely kill it.
+
+### Standout Tracks
+
+- Hand of God
+- The Sharecropper’s Daughter
+- The Black Renaissance
+
+## 3. Miles
+
+![](/images/miles-album-cover.jpg)
+
+Blu and Exile are back with their third album, Miles, eight years after their last release. Although Miles is very long, a staggering 95 minutes to be exact, it doesn’t feel long. This is due to the fact that Blu doesn’t have an overly aggressive voice and Exile handles the production with elegance. I’m not sure if ‘jazz rap’ is a real genre but if it is, this album fits directly into that slot.
+
+<quote song="Blue As I Can Be">
+I fell onto the planet, knowledge, born building understanding /
+Dropping poems on the illest canvas /
+South Central, Los Angeles, where n***** hold pistols and start scandals /
+I picked up a pencil and wrote anthems, my city mold champions /
+</quote>
+
+The best way to describe this album is cohesive. I mentioned how long this album is but the amount of ‘blue’ references makes this album feel like it’s one cohesive piece. Some of the songs could certainly be cut a bit short in my opinion, but Miles is an enjoyable listen with sharp lyrics and extremely smooth production.
+
+### Standout Tracks
+
+- Miles Davis
+- Blue As I Can Be
+- Troubled Water
+
+## 2. As God Intended
+
+![](/images/as-god-intended-album-cover.jpg)
+
+Admittedly, I first heard As God Intended much later than it’s release date. The album was released in July and I didn’t listen to it until October. Maybe even November. I remember the first time hearing it and thinking to myself, this is the best album I’ve ever heard through the first spin.
+
+The chemistry between Che Noir and Apollo Brown shines throughout all 50 minutes of this album. It’s both soulful and head-nodding. As God Intended has everything you want in a perfect album. Story telling, concept tracks, introspective tracks, tracks with just bars and it’s the perfect length to keep the replay value.
+
+<quote song="Freedom">
+Look, the art of war, it’s a meaning behind the message /
+You don’t need a gun or sword if you treat your mind as the weapon /
+Our colors is hidden, it’s secrets teachers hide in they lessons /
+History books was full of people with white complexions /
+</quote>
+
+There’s something about Che’s voice that’s soothing to listen to as well. She has all of the makings of a perfect rapper and I hope she continues to bless us with projects like this one.
+
+### Standout Tracks
+
+- Money Orientated
+- Daddy’s Girl
+- Freedom
+
+## 1. Descendants of Cain
+
+![Descendants of Cain album cover](/images/descendants-of-cain-album-cover.jpg)
+
+Descendants of Cain is the number one album of 2020 for me. If you recall, it was the number one album on my best [mid-year list](/lists/top-five-albums-of-2020-mid-year) and it kept that spot. Ka delivered a masterpiece with this one and it truly embodies the kind of emcee he is. Minimal production and slow, monotone but layered lyrics give the sense that you’re listening to an epic poem.
+
+It’s interesting how he can stick with the same formula and you never really get sick of hearing it. It’s a testament to his uniqueness as an artist.
+
+<quote song="Old Justice">
+Here cake exists only for those that take the risks /
+If the Lord offered, would you learn how, or take the fish? /
+No dandelions, I got handed irons to make a wish /
+Lived to hate, to the state was just another ape to frisk /
+</quote>
+
+Ka is much, much more than an ordinary rapper. His albums sound like they can be dissected and discussed in college auditoriums. He’s excellent at keeping the concept of his work transparent throughout the listen. Despite it’s super deep content, it has surprisingly high replay value.
+
+### Standout Tracks
+
+- Unto the Dust
+- Solitude of Enoch
+- Sins of the Father
+
+## Honorable Mentions
+
+Like I said earlier, this year had some fantastic hip hop album releases. There are three honorable mentions here but this list could have been 10 easy.
+
+### RTJ4
+
+_Run The Jewels 4_ is a hard-hitting, dope, loud album that was released during the heights of protests against police brutality. Killer Mike and El-P deliver what many are calling their best work, and while I don’t necessarily disagree, I just don’t go back to this project that much compared to the top five.
+
+### Manger of McNichols
+
+Another Boldy James project on this list. In comparison to _The Price of Tea in China_, this is almost a complete 180 in terms of content. Boldly gets personal on _Manger of McNichols_ and the album sounds a tiny bit experimental.
+
+This is another album that I heard somewhat late after its release but it’s been my go-to if I can’t decide what to listen to. Salute to Boldy James.
+
+### All My Heroes Are Dead
+
+R.A. the Rugged Man is one of the dopest lyricists to ever do it and _All My Heroes Are Dead_ somehow shows improvement from his last album. My favorite thing about R.A. is he’s unapologetically old school. Most of his tracks have three verses and the production is as boom-bap as it gets.
+
+I really wish this album was shorter though. Replay value is crucial and being as lyrically dense as _All My Heroes Are Dead_ is, it’s a long listen. It’s fire regardless.
+
+All in all, great year for hip hop, specifically for non-mainstream. What’s your album of year?
