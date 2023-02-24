@@ -1,6 +1,7 @@
 import Head from "next/head";
+import Button from "../components/Button";
+import ButtonGroup from "../components/ButtonGroup";
 import Header from "../components/Header";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,14 +18,14 @@ export default function Home() {
           album reviews and blogs about all things related to Hip-Hop music and
           the culture.
         </p>
-        <div className="button-group">
-          <Link href="/reviews" className="button button__primary mr-4">
+        <ButtonGroup>
+          <Button type="primary" href="/reviews">
             Read the Reviews
-          </Link>
-          <Link href="/blog" className="color-white">
+          </Button>
+          <Button type="ghost" href="/blog">
             Read the Blog
-          </Link>
-        </div>
+          </Button>
+        </ButtonGroup>
       </Header>
     </>
   );

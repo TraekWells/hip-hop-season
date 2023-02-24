@@ -1,11 +1,11 @@
-import Footer from "../Footer";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 
-interface Props {
+interface LayoutProps {
   children: React.ReactNode;
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Navbar />
