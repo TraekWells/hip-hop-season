@@ -1,7 +1,6 @@
 import Logo from "../Logo";
 import Link from "next/link";
 import styles from "./Navbar.module.scss";
-// import useHasMounted from "@/src/hooks/useHasMounted";
 
 const Navbar = () => {
   return (
