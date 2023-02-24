@@ -3,17 +3,11 @@ import React from "react";
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
-  // const [date, setDate] = React.useState(null);
-
-  // useEffect(() => {
-  //   setDate(0);
-  // }, []);
-
   return (
     <footer className={styles["footer"]}>
       <div className="container">
         <div className={styles["footer__nav"]}>
-          <div className={styles["footer_group"]}>
+          <div className={styles["footer__group"]}>
             <p className={styles["footer__header"]}>Pages</p>
             <p>
               <Link href="/reviews" className={styles["footer__link"]}>
@@ -67,8 +61,8 @@ const Footer = () => {
           </div>
         </div>
         <p className={styles["copyright"]}>
-          © (put date here) Hip-Hop Season. All rights reserved. Designed and
-          built by
+          © {new Date().getFullYear()} Hip-Hop Season. All rights reserved.
+          Designed and built by
           <a href="https://traekwells.com" target="_blank">
             Traek Wells
           </a>

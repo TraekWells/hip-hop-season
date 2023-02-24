@@ -8,14 +8,29 @@ interface HeaderProps {
 }
 
 const Header = ({ type, title, subtitle, children }: HeaderProps) => {
-  return (
-    <header className={`${styles["header"]} ${styles["header--home"]}`}>
-      <div className="container">
-        <h1>{title}</h1>
-        {children}
-      </div>
-    </header>
-  );
+  if (type === "large") {
+    return (
+      <header className={`${styles["header"]} ${styles["header--home"]}`}>
+        <div className="container">
+          <h1>{title}</h1>
+          {children}
+        </div>
+      </header>
+    );
+  }
+
+  if (type === "small") {
+    return (
+      <header className={`${styles["header"]}`}>
+        <div className="container">
+          <h1>{title}</h1>
+          {subtitle && subtitle}
+          {children}
+        </div>
+      </header>
+    );
+  }
+  return null;
 };
 
 export default Header;

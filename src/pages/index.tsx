@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Link from "next/link";
 import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
 import Header from "../components/Header";
+import LinkWithIcon from "../components/LinkWithIcon";
 
 export default function Home() {
   return (
@@ -13,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header type="large" title="Welcome to Hip Hop Season">
-        <p className="lead">
+        <p className="lead mt-4">
           Your home for <span className="underline">underground</span> Hip-Hop
           album reviews and blogs about all things related to Hip-Hop music and
           the culture.
@@ -22,9 +24,9 @@ export default function Home() {
           <Button type="primary" href="/reviews">
             Read the Reviews
           </Button>
-          <Button type="ghost" href="/blog">
+          <LinkWithIcon href="/blog" className="color-white">
             Read the Blog
-          </Button>
+          </LinkWithIcon>
         </ButtonGroup>
       </Header>
     </>

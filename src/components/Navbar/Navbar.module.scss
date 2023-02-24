@@ -68,7 +68,7 @@
         }
 
         .nav__link {
-          // color: $color-body-text;
+          color: hsl(var(--color-base-800));
           margin-bottom: 1rem;
         }
 
@@ -76,7 +76,7 @@
           display: flex;
 
           &-link {
-            // color: $color-body-text;
+            color: hsl(var(--color-base-800));
             font-size: 3rem;
 
             &:first-of-type {
@@ -167,7 +167,7 @@
       height: 4px;
       bottom: 0;
       left: 0;
-      background-color: hsl(var(--color-primary-800));
+      background-color: hsl(var(--color-primary-700));
       transition: transform 0.2s ease-out;
     }
 
@@ -183,19 +183,13 @@
 
     .nav {
       &__link {
-        // color: $color-body-text;
-        // padding: 2.1rem 2rem;
-
-        &::after {
-          background-color: hsl(var(--color-primary-800));
-          // background-color: $color-primary-dark;
-        }
+        color: hsl(var(--color-base-800));
+        padding: 2.6rem 2rem;
       }
 
       &__burger {
         span {
           background-color: hsl(var(--color-base-800));
-          // background-color: $color-gray-dark;
         }
       }
     }

@@ -1,10 +1,38 @@
+import React from "react";
 import Logo from "../Logo";
 import Link from "next/link";
 import styles from "./Navbar.module.scss";
 
 const Navbar = () => {
+  const [scrollPosition, setScrollPosition] = React.useState<number | null>(0);
+  const [isScrolled, setIsScrolled] = React.useState(false);
+  const navRef = React.useRef<HTMLElement | null>(null);
+
+  React.useEffect(() => {
+    const navHeight = navRef.current?.clientHeight;
+
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+      if (navHeight && scrollPosition) {
+        if (scrollPosition >= navHeight) {
+          setIsScrolled(true);
+        } else {
+          setIsScrolled(false);
+        }
+      }
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [scrollPosition]);
+
   return (
-    <nav className={styles["nav"]}>
+    <nav
+      className={`${styles["nav"]} ${isScrolled ? styles["scrolled"] : ""}`}
+      ref={navRef}
+    >
       <div className={`${styles["container"]} container`}>
         <Link href="/" className={styles["nav__logo"]}>
           <Logo />

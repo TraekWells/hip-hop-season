@@ -1,5 +1,13 @@
+import Header from "../components/Header";
+
 const Reviews = () => {
-  return <h1>Reviews</h1>;
+  return (
+    <Header type="small" title="Reviews">
+      <p className="lead">
+        My thoughts and opinions about different albums and mixtapes.
+      </p>
+    </Header>
+  );
 };
 
 export default Reviews;
