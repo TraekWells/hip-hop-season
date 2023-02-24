@@ -4,7 +4,7 @@ interface HeaderProps {
   type: "large" | "small";
   title: string;
   subtitle?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const Header = ({ type, title, subtitle, children }: HeaderProps) => {

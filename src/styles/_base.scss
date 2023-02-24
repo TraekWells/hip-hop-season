@@ -10,30 +10,30 @@
 }
 
 ::selection {
-  background: hsl(var(--color-primary-700)); /* WebKit/Blink Browsers */
+  background: hsl(var(--color-primary-300)); /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: hsl(var(--color-primary-700)); /* Gecko Browsers */
+  background: hsl(var(--color-primary-300)); /* Gecko Browsers */
 }
 
 h1::selection,
 p.lead::selection {
   color: hsl(var(--color-base-800));
-  background: hsl(var(--color-primary-700)); /* WebKit/Blink Browsers */
+  background: hsl(var(--color-primary-300)); /* WebKit/Blink Browsers */
 }
 h1::-moz-selection,
 p.lead::-moz-selection {
   color: hsl(var(--color-base-800));
-  background: hsl(var(--color-primary-700)); /* WebKit/Blink Browsers */
+  background: hsl(var(--color-primary-300)); /* WebKit/Blink Browsers */
 }
 
 footer p::selection {
   color: hsl(var(--color-base-800));
-  background: hsl(var(--color-primary-700)); /* WebKit/Blink Browsers */
+  background: hsl(var(--color-primary-300)); /* WebKit/Blink Browsers */
 }
 footer p::-moz-selection {
   color: hsl(var(--color-base-800));
-  background: hsl(var(--color-primary-700)); /* WebKit/Blink Browsers */
+  background: hsl(var(--color-primary-300)); /* WebKit/Blink Browsers */
 }
 
 html {

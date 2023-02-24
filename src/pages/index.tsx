@@ -29,6 +29,11 @@ export default function Home() {
           </LinkWithIcon>
         </ButtonGroup>
       </Header>
+      <section>
+        <div className="container">
+          <h2>Featured Reviews</h2>
+        </div>
+      </section>
     </>
   );
 }
