@@ -12,6 +12,7 @@ export const getBlogPostsData = () => {
   const blogPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
+    const slug = `/blog/${id}`;
 
     // Read markdown file as string
     const fullPath = path.join(blogPostsDirectory, fileName);
@@ -23,6 +24,7 @@ export const getBlogPostsData = () => {
     // Combine the data with the id
     return {
       id,
+      slug,
       ...matterResult.data,
     };
   });
@@ -36,6 +38,7 @@ export const getListPostsData = () => {
   const listPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
+    const slug = `/lists/${id}`;
 
     // Read markdown file as string
     const fullPath = path.join(listPostsDirectory, fileName);
@@ -47,6 +50,7 @@ export const getListPostsData = () => {
     // Combine the data with the id
     return {
       id,
+      slug,
       ...matterResult.data,
     };
   });
@@ -60,9 +64,10 @@ export const getReviewPostsData = () => {
   const reviewPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
+    const slug = `/reviews/${id}`;
 
     // Read markdown file as string
-    const fullPath = path.join(reviewPostsDirectory, fileName);
+    const fullPath = path.join(reviewPostsDirectory, `${fileName}`);
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
     // Use gray-matter to parse the post metadata section
@@ -71,6 +76,7 @@ export const getReviewPostsData = () => {
     // Combine the data with the id
     return {
       id,
+      slug,
       ...matterResult.data,
     };
   });

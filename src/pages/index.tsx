@@ -4,24 +4,35 @@ import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
 import Header from "../components/Header";
 import LinkWithIcon from "../components/LinkWithIcon";
-import { getBlogPostsData } from "@/lib/posts";
+import { getBlogPostsData, getReviewPostsData } from "@/lib/posts";
+import PreviewCard from "../components/PreviewCard";
 
 interface HomepageProps {
-  blogPosts: any;
+  // I don't want this to be 'any' but I don't know how else to fix it
+  blogs: Array<any>;
+  reviews: Array<any>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  let blogPosts = getBlogPostsData();
-  blogPosts = JSON.parse(JSON.stringify(blogPosts));
+  let blogs = getBlogPostsData();
+  let reviews = getReviewPostsData();
+  blogs = JSON.parse(JSON.stringify(blogs));
+  reviews = JSON.parse(JSON.stringify(reviews));
 
   return {
     props: {
-      blogPosts,
+      blogs,
+      reviews,
     },
   };
 };
 
-export default function Home({ blogPosts }: HomepageProps) {
+export default function Home({ blogs, reviews }: HomepageProps) {
+  console.log(reviews);
+  const featuredReviews = reviews.filter((review) => review.featured === true);
+  const latestReviews = reviews
+    .filter((review) => review.featured !== true)
+    .sort();
   return (
     <>
       <Head>
@@ -48,8 +59,24 @@ export default function Home({ blogPosts }: HomepageProps) {
       <section>
         <div className="container">
           <h2>Featured Reviews</h2>
-          {blogPosts.map((blog: any) => {
-            return <p key={blog.id}>{blog.title}</p>;
+          {featuredReviews.map((review) => {
+            return (
+              <PreviewCard
+                orientation="vertical"
+                key={review.id}
+                post={review}
+              />
+            );
+          })}
+          <h2>Latests Reviews</h2>
+          {latestReviews.map((review) => {
+            return (
+              <PreviewCard
+                orientation="horizontal"
+                key={review.id}
+                post={review}
+              />
+            );
           })}
         </div>
       </section>

@@ -4,7 +4,7 @@ import { ArrowRight } from "react-feather";
 
 interface LinkWithIconProps {
   href: string;
-  className: string;
+  className?: string;
   children: React.ReactNode;
 }
 
