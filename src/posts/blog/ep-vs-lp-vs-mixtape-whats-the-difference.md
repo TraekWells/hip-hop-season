@@ -1,5 +1,5 @@
 ---
-title: 'EP vs LP vs Mixtape: What’s the difference?'
+title: "EP vs LP vs Mixtape: What’s the difference?"
 image: ep-vs-lp-vs-album-hero-image.jpg
 summary:
   EPs, LPs, and mixtapes are similar but what are differences? This post will

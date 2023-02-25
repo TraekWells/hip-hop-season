@@ -1,12 +1,12 @@
 ---
 image: "/images/default-card-img.jpg"
 title: Hip-Hop Terminology
-summary: ''
+summary: ""
 createdAt: 2021-08-27T05:00:00.000+00:00
 draft: true
 featured: false
-
 ---
+
 Hip-hop is a culture in itself that has its own set of terminology.
 
 ## Bar

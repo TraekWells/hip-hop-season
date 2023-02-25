@@ -1,11 +1,27 @@
+import { GetStaticProps } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
 import Header from "../components/Header";
 import LinkWithIcon from "../components/LinkWithIcon";
+import { getBlogPostsData } from "@/lib/posts";
 
-export default function Home() {
+interface HomepageProps {
+  blogPosts: any;
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  let blogPosts = getBlogPostsData();
+  blogPosts = JSON.parse(JSON.stringify(blogPosts));
+
+  return {
+    props: {
+      blogPosts,
+    },
+  };
+};
+
+export default function Home({ blogPosts }: HomepageProps) {
   return (
     <>
       <Head>
@@ -32,6 +48,9 @@ export default function Home() {
       <section>
         <div className="container">
           <h2>Featured Reviews</h2>
+          {blogPosts.map((blog: any) => {
+            return <p key={blog.id}>{blog.title}</p>;
+          })}
         </div>
       </section>
     </>
