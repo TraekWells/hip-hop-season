@@ -5,9 +5,10 @@ interface HeaderProps {
   title: string;
   subtitle?: string;
   children?: React.ReactNode;
+  narrow?: boolean;
 }
 
-const Header = ({ type, title, subtitle, children }: HeaderProps) => {
+const Header = ({ type, title, subtitle, children, narrow }: HeaderProps) => {
   if (type === "large") {
     return (
       <header className={`${styles["header"]} ${styles["header--home"]}`}>
@@ -22,7 +23,9 @@ const Header = ({ type, title, subtitle, children }: HeaderProps) => {
   if (type === "small") {
     return (
       <header className={`${styles["header"]}`}>
-        <div className="container">
+        <div
+          className={`${narrow === true ? "container--narrow" : "container"}`}
+        >
           <h1>{title}</h1>
           {subtitle && subtitle}
           {children}

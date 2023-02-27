@@ -20,9 +20,14 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 const Reviews = ({ reviews }: ReviewPageProps) => {
-  const featuredReviews = reviews.filter((review) => review.featured === true);
+  const featuredReviews = reviews.filter(
+    (review) => review.params.featured === true
+  );
   const latestReviews = reviews
-    .filter((review) => review.featured !== true && review.draft === false)
+    .filter(
+      (review) =>
+        review.params.featured !== true && review.params.draft === false
+    )
     .sort();
   return (
     <>
@@ -43,7 +48,7 @@ const Reviews = ({ reviews }: ReviewPageProps) => {
             return (
               <PreviewCard
                 orientation="horizontal"
-                key={review.id}
+                key={review.params.id}
                 post={review}
               />
             );

@@ -1,15 +1,17 @@
 import styles from "./FeaturedPosts.module.scss";
 import PreviewCard, { PreviewCardType } from "../PreviewCard";
 
-interface FeaturedPostsProps {
-  posts: any;
-}
-
-const FeaturedPosts = ({ posts }: FeaturedPostsProps) => {
+const FeaturedPosts = ({ posts }: any) => {
   return (
     <div className={styles["featured-container"]}>
       {posts.map((post: PreviewCardType) => {
-        return <PreviewCard post={post} orientation="vertical" key={post.id} />;
+        return (
+          <PreviewCard
+            post={post}
+            orientation="vertical"
+            key={post.params.id}
+          />
+        );
       })}
     </div>
   );

@@ -29,13 +29,20 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 export default function Home({ blogs, reviews }: HomepageProps) {
-  const featuredReviews = reviews.filter((review) => review.featured === true);
+  const featuredReviews = reviews.filter(
+    (review) => review.params.featured === true
+  );
   const latestReviews = reviews
-    .filter((review) => review.featured !== true && review.draft === false)
+    .filter(
+      (review) =>
+        review.params.featured !== true && review.params.draft === false
+    )
     .sort();
-  const featuredPosts = blogs.filter((blog) => blog.featured === true);
+  const featuredPosts = blogs.filter((blog) => blog.params.featured === true);
   const latestPosts = blogs
-    .filter((blog) => blog.featured !== true && blog.draft === false)
+    .filter(
+      (blog) => blog.params.featured !== true && blog.params.draft === false
+    )
     .sort();
   return (
     <>
@@ -73,7 +80,7 @@ export default function Home({ blogs, reviews }: HomepageProps) {
             return (
               <PreviewCard
                 orientation="horizontal"
-                key={review.id}
+                key={review.params.id}
                 post={review}
               />
             );
@@ -94,7 +101,11 @@ export default function Home({ blogs, reviews }: HomepageProps) {
           <h2>Latests Posts</h2>
           {latestPosts.map((post) => {
             return (
-              <PreviewCard orientation="horizontal" key={post.id} post={post} />
+              <PreviewCard
+                orientation="horizontal"
+                key={post.params.id}
+                post={post}
+              />
             );
           })}
           <Button href="/blog" type="primary">

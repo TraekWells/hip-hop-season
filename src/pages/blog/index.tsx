@@ -21,9 +21,11 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 const Blog = ({ blogs }: BlogPageProps) => {
-  const featuredPosts = blogs.filter((blog) => blog.featured === true);
+  const featuredPosts = blogs.filter((blog) => blog.params.featured === true);
   const latestPosts = blogs
-    .filter((blog) => blog.featured !== true && blog.draft === false)
+    .filter(
+      (blog) => blog.params.featured !== true && blog.params.draft === false
+    )
     .sort();
   return (
     <>
@@ -40,7 +42,11 @@ const Blog = ({ blogs }: BlogPageProps) => {
           <h2>All Posts</h2>
           {latestPosts.map((blog) => {
             return (
-              <PreviewCard orientation="horizontal" key={blog.id} post={blog} />
+              <PreviewCard
+                orientation="horizontal"
+                key={blog.params.id}
+                post={blog}
+              />
             );
           })}
         </div>

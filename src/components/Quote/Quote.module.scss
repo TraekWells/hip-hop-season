@@ -1,0 +1,28 @@
+@use "../../styles/mixins" as m;
+
+blockquote {
+  box-shadow: 1rem 1rem 0 hsl(var(--color-primary-300));
+  background-color: #ffffff;
+  width: 110%;
+  margin-left: -5%;
+  padding: 3rem 4rem;
+  margin-bottom: 4rem;
+
+  @include m.respond(phone) {
+    padding: 2rem 3rem;
+    width: 100%;
+    margin: 0 auto 3rem;
+  }
+  cite {
+    color: hsl(var(--color-base-200));
+    margin-bottom: 0;
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    @include m.respond(phone) {
+      font-size: 1.7rem;
+    }
+  }
+}

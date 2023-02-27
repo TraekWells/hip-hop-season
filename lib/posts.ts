@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { bundleMDX } from "mdx-bundler";
 
 const blogPostsDirectory = path.join(process.cwd(), "./src/posts/blog");
 const listPostsDirectory = path.join(process.cwd(), "./src/posts/lists");
@@ -23,9 +24,11 @@ export const getBlogPostsData = () => {
 
     // Combine the data with the id
     return {
-      id,
-      slug,
-      ...matterResult.data,
+      params: {
+        id,
+        slug,
+        ...matterResult.data,
+      },
     };
   });
 
@@ -49,9 +52,11 @@ export const getListPostsData = () => {
 
     // Combine the data with the id
     return {
-      id,
-      slug,
-      ...matterResult.data,
+      params: {
+        id,
+        slug,
+        ...matterResult.data,
+      },
     };
   });
 
@@ -75,9 +80,11 @@ export const getReviewPostsData = () => {
 
     // Combine the data with the id
     return {
-      id,
-      slug,
-      ...matterResult.data,
+      params: {
+        id,
+        slug,
+        ...matterResult.data,
+      },
     };
   });
 
@@ -120,44 +127,62 @@ export function getAllListPostIds() {
   });
 }
 
-export function getBlogPostData(id: string) {
+export async function getBlogPostData(id: string) {
   const fullPath = path.join(blogPostsDirectory, `${id}.mdx`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const mdxSource = fs.readFileSync(fullPath, "utf8");
 
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
+  const { code, frontmatter } = await bundleMDX({
+    source: mdxSource,
+    mdxOptions(options) {
+      options.remarkPlugins = [...(options.remarkPlugins ?? [])];
+      options.rehypePlugins = [...(options.rehypePlugins ?? [])];
 
-  // Combine the data with the id
+      return options;
+    },
+  });
+
   return {
-    id,
-    ...matterResult.data,
+    code,
+    frontmatter,
   };
 }
 
-export function getReviewPostData(id: string) {
+export async function getReviewPostData(id: string) {
   const fullPath = path.join(reviewPostsDirectory, `${id}.mdx`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const mdxSource = fs.readFileSync(fullPath, "utf8");
 
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
+  const { code, frontmatter } = await bundleMDX({
+    source: mdxSource,
+    mdxOptions(options) {
+      options.remarkPlugins = [...(options.remarkPlugins ?? [])];
+      options.rehypePlugins = [...(options.rehypePlugins ?? [])];
 
-  // Combine the data with the id
+      return options;
+    },
+  });
+
   return {
-    id,
-    ...matterResult.data,
+    code,
+    frontmatter,
   };
 }
 
-export function getListPostData(id: string) {
+export async function getListPostData(id: string) {
   const fullPath = path.join(listPostsDirectory, `${id}.mdx`);
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const mdxSource = fs.readFileSync(fullPath, "utf8");
 
-  // Use gray-matter to parse the post metadata section
-  const matterResult = matter(fileContents);
+  const { code, frontmatter } = await bundleMDX({
+    source: mdxSource,
+    mdxOptions(options) {
+      options.remarkPlugins = [...(options.remarkPlugins ?? [])];
+      options.rehypePlugins = [...(options.rehypePlugins ?? [])];
 
-  // Combine the data with the id
+      return options;
+    },
+  });
+
   return {
-    id,
-    ...matterResult.data,
+    code,
+    frontmatter,
   };
 }

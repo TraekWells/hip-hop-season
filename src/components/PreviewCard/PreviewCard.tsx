@@ -7,16 +7,18 @@ import useTruncateText from "@/src/hooks/useTruncateText";
 import Link from "next/link";
 
 export type PreviewCardType = {
-  title: string;
-  id: string;
-  createdAt: string;
-  summary: string;
-  featured: boolean;
-  draft: boolean;
-  image: string;
-  artist?: string;
-  slug: string;
-  finalThoughts?: string;
+  params: {
+    title: string;
+    id: string;
+    createdAt: string;
+    summary: string;
+    featured: boolean;
+    draft: boolean;
+    image: string;
+    artist?: string;
+    slug: string;
+    finalThoughts?: string;
+  };
 };
 
 interface PreviewCardProps {
@@ -25,31 +27,33 @@ interface PreviewCardProps {
 }
 
 const PreviewCard = ({ orientation, post }: PreviewCardProps) => {
-  const date = useFormatDate(post.createdAt);
-  const snippet = useTruncateText(post.finalThoughts || post.summary);
+  const date = useFormatDate(post.params.createdAt);
+  const snippet = useTruncateText(
+    post.params.finalThoughts || post.params.summary
+  );
   return (
     <article className={`${styles["card"]} ${styles[`card--${orientation}`]}`}>
       <div className={styles["card__image"]}>
         <Image
-          src={`/images/${post.image}`}
-          alt={post.title}
+          src={`/images/${post.params.image}`}
+          alt={post.params.title}
           width={400}
           height={275}
         />
       </div>
       <div className={styles["card__details"]}>
-        <Link href={post.slug}>
-          <h3 className="mb-0">{post.title}</h3>
+        <Link href={post.params.slug}>
+          <h3 className="mb-0">{post.params.title}</h3>
         </Link>
-        {post.artist && (
-          <p className={styles["card__subtitle"]}>{post.artist}</p>
+        {post.params.artist && (
+          <p className={styles["card__subtitle"]}>{post.params.artist}</p>
         )}
         <p className="date">
           <Calendar />
           {date}
         </p>
         <p>{snippet}</p>
-        <LinkWithIcon href={post.slug}>Read More</LinkWithIcon>
+        <LinkWithIcon href={post.params.slug}>Read More</LinkWithIcon>
       </div>
     </article>
   );

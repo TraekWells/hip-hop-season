@@ -19,8 +19,8 @@ const Rating = ({
   title,
 }: RatingProps) => {
   return (
-    <div className="rating mb-4">
-      <div className="rating__image">
+    <div className={`${styles["rating"]} ${styles["mb-4"]}`}>
+      <div className={styles["rating__image"]}>
         <Image
           src={`/images/${image}`}
           alt={`Album cover for ${title}`}
@@ -28,30 +28,30 @@ const Rating = ({
           height={400}
         />
       </div>
-      <div className="rating__overall">
-        <p className="rating__score">
+      <div className={styles["rating__overall"]}>
+        <p className={styles["rating__score"]}>
           {lyrics + production + replayValue + variety} / 100
         </p>
-        <p className="rating__name">Overall</p>
+        <p className={styles["rating__name"]}>Overall</p>
       </div>
-      <div className="rating__category">
-        <p className="rating__score">
+      <div className={styles["rating__category"]}>
+        <p className={styles["rating__score"]}>
           {lyrics}
           <span> / 35</span>
         </p>
-        <p className="rating__name">Lyrics</p>
+        <p className={styles["rating__name"]}>Lyrics</p>
       </div>
-      <div className="rating__category">
-        <p className="rating__score">{production}/ 35</p>
-        <p className="rating__name">Production</p>
+      <div className={styles["rating__category"]}>
+        <p className={styles["rating__score"]}>{production}/ 35</p>
+        <p className={styles["rating__name"]}>Production</p>
       </div>
-      <div className="rating__category">
-        <p className="rating__score">{replayValue}/ 15</p>
-        <p className="rating__name">Replay Value</p>
+      <div className={styles["rating__category"]}>
+        <p className={styles["rating__score"]}>{replayValue}/ 15</p>
+        <p className={styles["rating__name"]}>Replay Value</p>
       </div>
-      <div className="rating__category">
-        <p className="rating__score">{variety}/ 15</p>
-        <p className="rating__name">Variety</p>
+      <div className={styles["rating__category"]}>
+        <p className={styles["rating__score"]}>{variety}/ 15</p>
+        <p className={styles["rating__name"]}>Variety</p>
       </div>
     </div>
   );
