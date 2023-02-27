@@ -27,33 +27,26 @@ interface PreviewCardProps {
 }
 
 const PreviewCard = ({ orientation, post }: PreviewCardProps) => {
-  const date = useFormatDate(post.params.createdAt);
-  const snippet = useTruncateText(
-    post.params.finalThoughts || post.params.summary
-  );
+  const { finalThoughts, summary, image, title, slug, createdAt, artist } =
+    post.params;
+  const date = useFormatDate(createdAt);
+  const snippet = useTruncateText(finalThoughts || summary);
   return (
     <article className={`${styles["card"]} ${styles[`card--${orientation}`]}`}>
       <div className={styles["card__image"]}>
-        <Image
-          src={`/images/${post.params.image}`}
-          alt={post.params.title}
-          width={400}
-          height={275}
-        />
+        <Image src={`/images/${image}`} alt={title} width={400} height={275} />
       </div>
       <div className={styles["card__details"]}>
-        <Link href={post.params.slug}>
-          <h3 className="mb-0">{post.params.title}</h3>
+        <Link href={slug}>
+          <h3 className="mb-0">{title}</h3>
         </Link>
-        {post.params.artist && (
-          <p className={styles["card__subtitle"]}>{post.params.artist}</p>
-        )}
+        {artist && <p className={styles["card__subtitle"]}>{artist}</p>}
         <p className="date">
           <Calendar />
           {date}
         </p>
         <p>{snippet}</p>
-        <LinkWithIcon href={post.params.slug}>Read More</LinkWithIcon>
+        <LinkWithIcon href={slug}>Read More</LinkWithIcon>
       </div>
     </article>
   );
