@@ -1,11 +1,51 @@
+import { getBlogPostsData } from "@/lib/posts";
+import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
+import PreviewCard from "@/src/components/PreviewCard";
+import { GetStaticProps } from "next";
 import React from "react";
 
-const Blog = () => {
+interface BlogPageProps {
+  blogs: Array<any>;
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  let blogs = getBlogPostsData();
+  blogs = JSON.parse(JSON.stringify(blogs));
+
+  return {
+    props: {
+      blogs,
+    },
+  };
+};
+
+const Blog = ({ blogs }: BlogPageProps) => {
+  const featuredPosts = blogs.filter((blog) => blog.featured === true);
+  const latestPosts = blogs
+    .filter((blog) => blog.featured !== true && blog.draft === false)
+    .sort();
   return (
-    <Header type="small" title="Blog">
-      <p className="lead">Thoughts about random things related to Hip Hop.</p>
-    </Header>
+    <>
+      <Header type="small" title="Blog">
+        <p className="lead">Thoughts about random things related to Hip Hop.</p>
+      </Header>
+      <section>
+        <div className="container">
+          <FeaturedPosts posts={featuredPosts} />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <h2>All Posts</h2>
+          {latestPosts.map((blog) => {
+            return (
+              <PreviewCard orientation="horizontal" key={blog.id} post={blog} />
+            );
+          })}
+        </div>
+      </section>
+    </>
   );
 };
 

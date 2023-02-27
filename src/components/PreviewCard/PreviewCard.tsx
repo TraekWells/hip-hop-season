@@ -3,8 +3,10 @@ import Image from "next/image";
 import LinkWithIcon from "../LinkWithIcon";
 import { Calendar } from "react-feather";
 import useFormatDate from "@/src/hooks/useFormatDate";
+import useTruncateText from "@/src/hooks/useTruncateText";
+import Link from "next/link";
 
-type PreviewCardType = {
+export type PreviewCardType = {
   title: string;
   id: string;
   createdAt: string;
@@ -22,8 +24,9 @@ interface PreviewCardProps {
   orientation: "vertical" | "horizontal";
 }
 
-const PostCard = ({ orientation, post }: PreviewCardProps) => {
+const PreviewCard = ({ orientation, post }: PreviewCardProps) => {
   const date = useFormatDate(post.createdAt);
+  const snippet = useTruncateText(post.finalThoughts || post.summary);
   return (
     <article className={`${styles["card"]} ${styles[`card--${orientation}`]}`}>
       <div className={styles["card__image"]}>
@@ -31,11 +34,13 @@ const PostCard = ({ orientation, post }: PreviewCardProps) => {
           src={`/images/${post.image}`}
           alt={post.title}
           width={400}
-          height={250}
+          height={275}
         />
       </div>
       <div className={styles["card__details"]}>
-        <h3 className="mb-0">{post.title}</h3>
+        <Link href={post.slug}>
+          <h3 className="mb-0">{post.title}</h3>
+        </Link>
         {post.artist && (
           <p className={styles["card__subtitle"]}>{post.artist}</p>
         )}
@@ -43,11 +48,11 @@ const PostCard = ({ orientation, post }: PreviewCardProps) => {
           <Calendar />
           {date}
         </p>
-        <p>{post.summary || post.finalThoughts}</p>
+        <p>{snippet}</p>
         <LinkWithIcon href={post.slug}>Read More</LinkWithIcon>
       </div>
     </article>
   );
 };
 
-export default PostCard;
+export default PreviewCard;

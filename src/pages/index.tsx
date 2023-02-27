@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import LinkWithIcon from "../components/LinkWithIcon";
 import { getBlogPostsData, getReviewPostsData } from "@/lib/posts";
 import PreviewCard from "../components/PreviewCard";
+import FeaturedPosts from "../components/FeaturedPosts";
 
 interface HomepageProps {
   // I don't want this to be 'any' but I don't know how else to fix it
@@ -28,10 +29,13 @@ export const getStaticProps: GetStaticProps = async () => {
 };
 
 export default function Home({ blogs, reviews }: HomepageProps) {
-  console.log(reviews);
   const featuredReviews = reviews.filter((review) => review.featured === true);
   const latestReviews = reviews
-    .filter((review) => review.featured !== true)
+    .filter((review) => review.featured !== true && review.draft === false)
+    .sort();
+  const featuredPosts = blogs.filter((blog) => blog.featured === true);
+  const latestPosts = blogs
+    .filter((blog) => blog.featured !== true && blog.draft === false)
     .sort();
   return (
     <>
@@ -59,15 +63,11 @@ export default function Home({ blogs, reviews }: HomepageProps) {
       <section>
         <div className="container">
           <h2>Featured Reviews</h2>
-          {featuredReviews.map((review) => {
-            return (
-              <PreviewCard
-                orientation="vertical"
-                key={review.id}
-                post={review}
-              />
-            );
-          })}
+          <FeaturedPosts posts={featuredReviews} />
+        </div>
+      </section>
+      <section>
+        <div className="container">
           <h2>Latests Reviews</h2>
           {latestReviews.map((review) => {
             return (
@@ -78,6 +78,28 @@ export default function Home({ blogs, reviews }: HomepageProps) {
               />
             );
           })}
+          <Button href="/reviews" type="primary">
+            See more reviews
+          </Button>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <h2>Featured Posts</h2>
+          <FeaturedPosts posts={featuredPosts} />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <h2>Latests Posts</h2>
+          {latestPosts.map((post) => {
+            return (
+              <PreviewCard orientation="horizontal" key={post.id} post={post} />
+            );
+          })}
+          <Button href="/blog" type="primary">
+            See more Posts
+          </Button>
         </div>
       </section>
     </>

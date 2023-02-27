@@ -1,12 +1,56 @@
+import { getReviewPostsData } from "@/lib/posts";
+import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
+import PreviewCard from "@/src/components/PreviewCard";
+import { GetStaticProps } from "next";
 
-const Reviews = () => {
+interface ReviewPageProps {
+  reviews: Array<any>;
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  let reviews = getReviewPostsData();
+  reviews = JSON.parse(JSON.stringify(reviews));
+
+  return {
+    props: {
+      reviews,
+    },
+  };
+};
+
+const Reviews = ({ reviews }: ReviewPageProps) => {
+  const featuredReviews = reviews.filter((review) => review.featured === true);
+  const latestReviews = reviews
+    .filter((review) => review.featured !== true && review.draft === false)
+    .sort();
   return (
-    <Header type="small" title="Reviews">
-      <p className="lead">
-        My thoughts and opinions about different albums and mixtapes.
-      </p>
-    </Header>
+    <>
+      <Header type="small" title="Reviews">
+        <p className="lead">
+          My thoughts and opinions about different albums and mixtapes.
+        </p>
+      </Header>
+      <section>
+        <div className="container">
+          <FeaturedPosts posts={featuredReviews} />
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <h2>All Reviews</h2>
+          {latestReviews.map((review) => {
+            return (
+              <PreviewCard
+                orientation="horizontal"
+                key={review.id}
+                post={review}
+              />
+            );
+          })}
+        </div>
+      </section>
+    </>
   );
 };
 
