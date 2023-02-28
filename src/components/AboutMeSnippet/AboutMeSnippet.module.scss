@@ -35,7 +35,7 @@
   &__link {
     border-bottom: none;
     font-size: 3rem;
-    // color: sl(var(--color-base-300));
+    color: sl(var(--color-base-300));
 
     svg {
       transition: 0.2s ease transform;
@@ -47,7 +47,7 @@
 
     &:hover svg {
       transform: scale(1.2);
-      // color: hsl(var(--color-primary-300));
+      color: hsl(var(--color-primary-700));
     }
   }
 }

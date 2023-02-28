@@ -19,7 +19,7 @@ const Rating = ({
   title,
 }: RatingProps) => {
   return (
-    <div className={`${styles["rating"]} ${styles["mb-4"]}`}>
+    <div className={`${styles["rating"]}`}>
       <div className={styles["rating__image"]}>
         <Image
           src={`/images/${image}`}

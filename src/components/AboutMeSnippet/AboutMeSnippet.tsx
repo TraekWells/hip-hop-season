@@ -1,10 +1,19 @@
+import styles from "./AboutMeSnippet.module.scss";
+import Image from "next/image";
+import { Twitter, Instagram } from "react-feather";
+
 const AboutMeSnippet = () => {
   return (
-    <div className="about-the-author">
-      <div className="about-the-author__image">
-        <img src="/images/about-the-author-image.jpg" />
+    <div className={styles["about-the-author"]}>
+      <div className={styles["about-the-author__image"]}>
+        <Image
+          src={"/images/about-the-author-image.jpg"}
+          alt="About the author image"
+          width={225}
+          height={300}
+        />
       </div>
-      <div className="about-the-author__bio">
+      <div className={styles["about-the-author__bio"]}>
         <h4>About the author</h4>
         <p>
           I'm not music expert but I know what good hip hop sounds like. I'm
@@ -13,18 +22,18 @@ const AboutMeSnippet = () => {
           my own but I'd love to discuss.
         </p>
         <a
-          className="about-the-author__link"
+          className={styles["about-the-author__link"]}
           href="https://twitter.com/ItsHipHopSeason"
           target="_blank"
         >
-          twitter icon
+          <Twitter />
         </a>
         <a
-          className="about-the-author__link"
+          className={styles["about-the-author__link"]}
           href="https://www.instagram.com/itshiphopseason/"
           target="_blank"
         >
-          ig icon
+          <Instagram />
         </a>
       </div>
     </div>

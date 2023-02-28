@@ -6,9 +6,20 @@ interface HeaderProps {
   subtitle?: string;
   children?: React.ReactNode;
   narrow?: boolean;
+  artist?: string;
+  image: string;
 }
 
-const Header = ({ type, title, subtitle, children, narrow }: HeaderProps) => {
+const Header = ({
+  type,
+  title,
+  subtitle,
+  children,
+  narrow,
+  artist,
+  image,
+}: HeaderProps) => {
+  const background = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/${image}`;
   if (type === "large") {
     return (
       <header className={`${styles["header"]} ${styles["header--home"]}`}>
@@ -22,11 +33,21 @@ const Header = ({ type, title, subtitle, children, narrow }: HeaderProps) => {
 
   if (type === "small") {
     return (
-      <header className={`${styles["header"]}`}>
+      <header
+        className={`${styles["header"]}`}
+        style={{ backgroundImage: background }}
+      >
         <div
           className={`${narrow === true ? "container--narrow" : "container"}`}
         >
-          <h1>{title}</h1>
+          {artist ? (
+            <h1>
+              <span className="lead">{artist}</span>
+              {title}
+            </h1>
+          ) : (
+            <h1>{title}</h1>
+          )}
           {subtitle && subtitle}
           {children}
         </div>

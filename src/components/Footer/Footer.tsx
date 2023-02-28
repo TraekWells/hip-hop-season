@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         <p className={styles["copyright"]}>
           © {new Date().getFullYear()} Hip-Hop Season. All rights reserved.
-          Designed and built by
+          Designed and built by{" "}
           <a href="https://traekwells.com" target="_blank">
             Traek Wells
           </a>
