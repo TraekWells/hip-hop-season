@@ -1,8 +1,9 @@
 import React from "react";
+import Rating from "@/src/components/Rating";
+import Header from "@/src/components/Header";
 import { getReviewPostData, getReviewPostsData } from "@/lib/posts";
 import { getMDXComponent } from "mdx-bundler/client";
-import Header from "@/src/components/Header";
-import Rating from "@/src/components/Rating";
+import Quote from "@/src/components/Quote";
 
 export async function getStaticProps({ params }: any) {
   let review = await getReviewPostData(params.id);
@@ -30,7 +31,11 @@ const Post = ({ code, frontmatter }: any) => {
       <div className="container--narrow">
         <h2>The Bottom Line</h2>
         <p className="lead">{frontmatter.bottomLine}</p>
-        <Component />
+        <Component
+          components={{
+            Quote,
+          }}
+        />
         <Rating
           lyrics={frontmatter.rating.lyrics}
           production={frontmatter.rating.production}

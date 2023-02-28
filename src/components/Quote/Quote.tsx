@@ -1,13 +1,15 @@
+import styles from "./Quote.module.scss";
+
 interface QuoteProps {
-  song: string;
+  song?: string;
   children: React.ReactNode;
 }
 
 const Quote = ({ children, song }: QuoteProps) => {
   return (
-    <div className="blockquote">
+    <div className={styles["quote"]}>
       {children}
-      <cite>– {song}</cite>
+      {song && <cite className={styles["song"]}>– {song}</cite>}
     </div>
   );
 };

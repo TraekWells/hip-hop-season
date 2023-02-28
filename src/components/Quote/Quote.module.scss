@@ -1,6 +1,6 @@
 @use "../../styles/mixins" as m;
 
-blockquote {
+.quote {
   box-shadow: 1rem 1rem 0 hsl(var(--color-primary-300));
   background-color: #ffffff;
   width: 110%;
@@ -13,7 +13,7 @@ blockquote {
     width: 100%;
     margin: 0 auto 3rem;
   }
-  cite {
+  .song {
     color: hsl(var(--color-base-200));
     margin-bottom: 0;
     font-size: 1.7rem;

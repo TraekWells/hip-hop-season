@@ -167,8 +167,8 @@ export async function getReviewPostData(id: string) {
   };
 }
 
-export async function getListPostData(id: string) {
-  const fullPath = path.join(listPostsDirectory, `${id}.mdx`);
+export async function getListPostData(slug: string) {
+  const fullPath = path.join(listPostsDirectory, `${slug}.mdx`);
   const mdxSource = fs.readFileSync(fullPath, "utf8");
 
   const { code, frontmatter } = await bundleMDX({
@@ -182,6 +182,7 @@ export async function getListPostData(id: string) {
   });
 
   return {
+    slug,
     code,
     frontmatter,
   };

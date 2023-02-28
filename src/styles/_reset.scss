@@ -52,6 +52,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: hsl(var(--color-base-100));
 }
 
 /* A elements that don't have a class get default styles */
