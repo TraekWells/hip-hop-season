@@ -1,8 +1,6 @@
 @use "../../styles/mixins" as m;
 
 .header {
-  // This is temporary
-  background-color: hsl(var(--color-base-300));
   color: hsl(var(--color-white));
   background-size: cover;
   height: 40rem;
