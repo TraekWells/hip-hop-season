@@ -1,0 +1,53 @@
+@use "../../styles/mixins" as m;
+
+.about-the-author {
+  display: flex;
+  box-shadow: 1rem 1rem 0 hsl(var(--color-primary-300));
+
+  &__image {
+    flex-basis: 30%;
+
+    @include m.respond(phone) {
+      display: none;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__bio {
+    flex-basis: 70%;
+    background-color: hsl(var(--color-white));
+    padding: 3rem;
+
+    @include m.respond(phone) {
+      flex-basis: 100%;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &__link {
+    border-bottom: none;
+    font-size: 3rem;
+    // color: sl(var(--color-base-300));
+
+    svg {
+      transition: 0.2s ease transform;
+    }
+
+    &:first-of-type {
+      margin-right: 2rem;
+    }
+
+    &:hover svg {
+      transform: scale(1.2);
+      // color: hsl(var(--color-primary-300));
+    }
+  }
+}
