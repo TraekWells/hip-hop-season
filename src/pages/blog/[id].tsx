@@ -42,7 +42,8 @@ const Post = ({ code, frontmatter, blogs }: any) => {
 
   React.useEffect(() => {
     const randomPosts = blogs
-      .filter((review: BlogProps) => review.params.title !== frontmatter.title)
+      .filter((blog: BlogProps) => blog.params.draft === false)
+      .filter((blog: BlogProps) => blog.params.title !== frontmatter.title)
       .sort(() => 0.5 - Math.random())
       .slice(0, 2);
 

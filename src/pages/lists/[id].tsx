@@ -43,6 +43,7 @@ const Post = ({ code, frontmatter, lists }: any) => {
 
   React.useEffect(() => {
     const randomLists = lists
+      .filter((list: ListProps) => list.params.draft === false)
       .filter((review: ListProps) => review.params.title !== frontmatter.title)
       .sort(() => 0.5 - Math.random())
       .slice(0, 2);

@@ -51,6 +51,7 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
 
   React.useEffect(() => {
     const randomReviews = reviews
+      .filter((review: ReviewProps) => review.params.draft === false)
       .filter(
         (review: ReviewProps) => review.params.title !== frontmatter.title
       )
