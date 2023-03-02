@@ -9,7 +9,6 @@ import AboutMeSnippet from "@/src/components/AboutMeSnippet";
 import useFormatDate from "@/src/hooks/useFormatDate";
 import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
-
 interface PostProps {
   code: string;
   frontmatter: any;

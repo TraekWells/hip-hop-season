@@ -23,7 +23,7 @@
     background-color: hsl(var(--color-primary-700));
 
     &:hover {
-      // background-color: darken(hsl(var(--color-primary-700)), 20%);
+      background-color: hsl(var(--color-primary-800));
     }
   }
 }

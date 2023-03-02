@@ -1,7 +1,7 @@
 @use "../../styles/mixins" as m;
 
 .footer {
-  background-color: hsl(var(--color-base-800));
+  background-color: hsl(var(--color-base-900));
   color: hsl(var(--color-white));
   padding: 5rem 0;
 
@@ -17,15 +17,14 @@
     }
   }
 
-  &__header {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 1px;
-  }
-
-  p {
+  p,
+  a {
     margin-bottom: 1.3rem;
     font-size: 1.6rem;
+  }
+
+  &__header {
+    font-weight: 500;
   }
 
   &__link {

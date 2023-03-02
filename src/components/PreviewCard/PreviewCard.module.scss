@@ -38,8 +38,6 @@
     }
 
     .card__title {
-      // margin-bottom: -1rem;
-
       @include m.respond(tablet-port) {
         line-height: 1.2;
         margin-bottom: 1rem;
@@ -49,6 +47,11 @@
     .card__subtitle {
       font-size: 2rem;
       margin-bottom: 0;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      line-height: 1.7;
     }
 
     > a {
