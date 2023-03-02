@@ -31,7 +31,7 @@ const Reviews = ({ reviews }: ReviewPageProps) => {
     .sort();
   return (
     <>
-      <Header type="small" title="Reviews">
+      <Header type="small" title="Reviews" image="review-header.jpg">
         <p className="lead">
           My thoughts and opinions about different albums and mixtapes.
         </p>

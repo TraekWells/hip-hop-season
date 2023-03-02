@@ -52,7 +52,11 @@ export default function Home({ blogs, reviews }: HomepageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header type="large" title="Welcome to Hip Hop Season">
+      <Header
+        type="large"
+        title="Welcome to Hip Hop Season"
+        image="homepage-hero-image.jpg"
+      >
         <p className="lead mt-4">
           Your home for <span className="underline">underground</span> Hip-Hop
           album reviews and blogs about all things related to Hip-Hop music and

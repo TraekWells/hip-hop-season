@@ -29,7 +29,7 @@ const Blog = ({ blogs }: BlogPageProps) => {
     .sort();
   return (
     <>
-      <Header type="small" title="Blog">
+      <Header type="small" title="Blog" image="blog-header.jpg">
         <p className="lead">Thoughts about random things related to Hip Hop.</p>
       </Header>
       <section>

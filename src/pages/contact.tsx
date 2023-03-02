@@ -4,7 +4,7 @@ import Header from "../components/Header";
 const Contact = () => {
   return (
     <>
-      <Header type="small" title="Contact Me" />
+      <Header type="small" title="Contact Me" image="contact-header.jpg" />
       <div className="container">
         <p>
           The best way to get a hold of me is through social media. Hit me up on

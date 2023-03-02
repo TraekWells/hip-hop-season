@@ -22,7 +22,10 @@ const Header = ({
   const background = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/${image}`;
   if (type === "large") {
     return (
-      <header className={`${styles["header"]} ${styles["header--home"]}`}>
+      <header
+        className={`${styles["header"]} ${styles["header--home"]}`}
+        style={{ backgroundImage: background }}
+      >
         <div className="container">
           <h1>{title}</h1>
           {children}

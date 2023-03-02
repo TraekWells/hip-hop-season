@@ -29,7 +29,7 @@ const Lists = ({ lists }: ListPageProps) => {
     .sort();
   return (
     <>
-      <Header type="small" title="Lists">
+      <Header type="small" title="Lists" image="review-header.jpg">
         <p className="lead">
           Everybody has their own hip hop music lists. Here are a few of mine.
         </p>

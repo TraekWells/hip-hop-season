@@ -1,4 +1,4 @@
-import React from "react";
+import React, { SetStateAction } from "react";
 import Header from "@/src/components/Header";
 import { getBlogPostData, getBlogPostsData } from "@/lib/posts";
 import { getMDXComponent } from "mdx-bundler/client";
@@ -7,13 +7,23 @@ import VideoEmbed from "@/src/components/VideoEmbed";
 import AboutMeSnippet from "@/src/components/AboutMeSnippet";
 import useFormatDate from "@/src/hooks/useFormatDate";
 import Button from "@/src/components/Button";
+import FeaturedPosts from "@/src/components/FeaturedPosts";
+
+interface BlogProps {
+  params: any;
+}
 
 export async function getStaticProps({ params }: any) {
   let blog = await getBlogPostData(params.id);
   blog = JSON.parse(JSON.stringify(blog));
+
+  // Get all reviews and pass to Post
+  let blogs = await getBlogPostsData();
+  blogs = JSON.parse(JSON.stringify(blogs));
   return {
     props: {
       ...blog,
+      blogs,
     },
   };
 }
@@ -26,8 +36,18 @@ export async function getStaticPaths() {
   };
 }
 
-const Post = ({ code, frontmatter }: any) => {
+const Post = ({ code, frontmatter, blogs }: any) => {
+  const [morePosts, setMorePosts] = React.useState<SetStateAction<any>>([]);
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
+
+  React.useEffect(() => {
+    const randomPosts = blogs
+      .filter((review: BlogProps) => review.params.title !== frontmatter.title)
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 2);
+
+    setMorePosts(randomPosts);
+  }, []);
   return (
     <>
       <Header
@@ -58,6 +78,7 @@ const Post = ({ code, frontmatter }: any) => {
       <section>
         <div className="container">
           <h2>More Blogs</h2>
+          <FeaturedPosts posts={morePosts} />
           <Button href="/reviews" type="primary">
             See All Posts
           </Button>

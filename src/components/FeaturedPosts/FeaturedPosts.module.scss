@@ -2,6 +2,7 @@
 
 .featured-container {
   display: flex;
+  margin-bottom: 4rem;
   @include m.respond(phone) {
     flex-direction: column;
   }
