@@ -25,6 +25,7 @@ const AboutMeSnippet = () => {
           className={styles["about-the-author__link"]}
           href="https://twitter.com/ItsHipHopSeason"
           target="_blank"
+          rel="noreferrer"
         >
           <Twitter />
         </a>
@@ -32,6 +33,7 @@ const AboutMeSnippet = () => {
           className={styles["about-the-author__link"]}
           href="https://www.instagram.com/itshiphopseason/"
           target="_blank"
+          rel="noreferrer"
         >
           <Instagram />
         </a>

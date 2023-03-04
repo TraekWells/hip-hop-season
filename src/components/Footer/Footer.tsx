@@ -37,6 +37,7 @@ const Footer = () => {
                 href="https://twitter.com/ItsHipHopSeason"
                 className={styles["footer__link"]}
                 target="_blank"
+                rel="noreferrer"
               >
                 Twitter
               </a>
@@ -46,6 +47,7 @@ const Footer = () => {
                 href="https://www.instagram.com/itshiphopseason/"
                 className={styles["footer__link"]}
                 target="_blank"
+                rel="noreferrer"
               >
                 Instagram
               </a>
@@ -63,7 +65,7 @@ const Footer = () => {
         <p className={styles["copyright"]}>
           © {new Date().getFullYear()} Hip-Hop Season. All rights reserved.
           Designed and built by{" "}
-          <a href="https://traekwells.com" target="_blank">
+          <a href="https://traekwells.com" target="_blank" rel="noreferrer">
             Traek Wells
           </a>
           .

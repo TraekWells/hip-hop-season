@@ -10,13 +10,18 @@ const Contact = () => {
           <p>
             The best way to get a hold of me is through social media. Hit me up
             on {""}
-            <a href="https://twitter.com/ItsHipHopSeason" target="_blank">
+            <a
+              href="https://twitter.com/ItsHipHopSeason"
+              target="_blank"
+              rel="noreferrer"
+            >
               Twitter
             </a>
             {""} or {""}
             <a
               href="https://www.instagram.com/itshiphopseason/"
               target="_blank"
+              rel="noreferrer"
             >
               Instagram
             </a>{" "}

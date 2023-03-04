@@ -58,7 +58,7 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
       .slice(0, 2);
 
     setMoreReviews(randomReviews);
-  }, []);
+  }, [reviews, frontmatter.title]);
   return (
     <>
       <Header
@@ -95,13 +95,18 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
           <p className="text-centered">
             How would you rate this project? Have an album or mixtape you'd like
             me to review? Let me know on{" "}
-            <a href="https://twitter.com/ItsHipHopSeason" target="_blank">
+            <a
+              href="https://twitter.com/ItsHipHopSeason"
+              target="_blank"
+              rel="noreferrer"
+            >
               Twitter
             </a>{" "}
             or{" "}
             <a
               href="https://www.instagram.com/itshiphopseason/"
               target="_blank"
+              rel="noreferrer"
             >
               Instagram
             </a>{" "}

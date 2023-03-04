@@ -49,7 +49,7 @@ const Post = ({ code, frontmatter, lists }: any) => {
       .slice(0, 2);
 
     setMoreLists(randomLists);
-  }, []);
+  }, [lists, frontmatter.title]);
   return (
     <>
       <Header

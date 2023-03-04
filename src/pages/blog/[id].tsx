@@ -48,7 +48,7 @@ const Post = ({ code, frontmatter, blogs }: any) => {
       .slice(0, 2);
 
     setMorePosts(randomPosts);
-  }, []);
+  }, [blogs, frontmatter.title]);
   return (
     <>
       <Header
