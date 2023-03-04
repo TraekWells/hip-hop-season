@@ -29,7 +29,7 @@ const MetaData = ({
             url: image,
             width: 800,
             height: 600,
-            alt: "Og Image Alt",
+            alt: `${title} article card`,
           },
         ],
       }}
