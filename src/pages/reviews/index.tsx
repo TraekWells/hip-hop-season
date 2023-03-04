@@ -3,6 +3,7 @@ import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
 import PreviewCard from "@/src/components/PreviewCard";
 import { GetStaticProps } from "next";
+import { NextSeo } from "next-seo";
 
 interface ReviewPageProps {
   reviews: Array<any>;
@@ -31,6 +32,10 @@ const Reviews = ({ reviews }: ReviewPageProps) => {
     .sort();
   return (
     <>
+      <NextSeo
+        title="Reviews"
+        description="Hip hop album reviews for underground projects."
+      />
       <Header type="small" title="Reviews" image="review-header.jpg">
         <p className="lead">
           My thoughts and opinions about different albums and mixtapes.

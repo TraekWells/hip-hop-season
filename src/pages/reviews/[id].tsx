@@ -9,6 +9,7 @@ import AboutMeSnippet from "@/src/components/AboutMeSnippet";
 import useFormatDate from "@/src/hooks/useFormatDate";
 import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
+import MetaData from "@/src/components/MetaData";
 interface PostProps {
   code: string;
   frontmatter: any;
@@ -61,6 +62,13 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
   }, [reviews, frontmatter.title]);
   return (
     <>
+      <MetaData
+        title={frontmatter.title}
+        description={frontmatter.bottomLine}
+        image={frontmatter.image}
+        type="article"
+        url="www.google.com"
+      />
       <Header
         type="small"
         title={frontmatter.title}
