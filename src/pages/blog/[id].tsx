@@ -40,7 +40,6 @@ export async function getStaticPaths() {
 
 const Post = ({ code, frontmatter, blogs }: any) => {
   const route = useRouter();
-  console.log(route.pathname);
   const [morePosts, setMorePosts] = React.useState<SetStateAction<any>>([]);
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
 
