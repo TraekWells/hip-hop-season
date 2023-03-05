@@ -20,11 +20,6 @@ const Footer = () => {
               </Link>
             </p>
             <p>
-              <Link href="/about-me" className={styles["footer__link"]}>
-                About Me
-              </Link>
-            </p>
-            <p>
               <Link href="/contact" className={styles["footer__link"]}>
                 Contact Me
               </Link>
