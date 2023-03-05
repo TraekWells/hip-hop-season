@@ -1,0 +1,10 @@
+.button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+
+  *:not(:last-child) {
+    margin-right: 3rem;
+  }
+}

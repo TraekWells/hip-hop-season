@@ -1,0 +1,24 @@
+@use "../../styles/mixins" as m;
+
+.logo {
+  max-width: 7rem;
+  width: 7rem;
+  height: 5.9rem;
+  z-index: 10;
+
+  @include m.respond(phone) {
+    max-width: 6rem;
+  }
+
+  &__black {
+    fill: hsl(var(--color-base-900));
+  }
+
+  &__white {
+    fill: #ffffff;
+  }
+
+  &__purple {
+    fill: hsl(var(--color-primary-700));
+  }
+}

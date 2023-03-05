@@ -1,0 +1,100 @@
+@use "../../styles/mixins" as m;
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-container {
+  display: flex;
+  @include m.respond(phone) {
+    flex-direction: column;
+  }
+}
+
+.card {
+  display: flex;
+
+  &__image {
+    width: 100%;
+    max-height: 25rem;
+    box-shadow: 1rem 1rem 0 hsl(var(--color-primary-300));
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      transition: 0.2s ease transform;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.1) rotate(-2deg);
+      }
+    }
+  }
+
+  &__details {
+    @include m.respond(phone) {
+      flex-basis: 100%;
+    }
+
+    .card__title {
+      @include m.respond(tablet-port) {
+        line-height: 1.2;
+        margin-bottom: 1rem;
+      }
+    }
+
+    .card__subtitle {
+      font-size: 2rem;
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-top: 0.5rem;
+      line-height: 1.7;
+    }
+
+    > a {
+      line-height: 1.15;
+    }
+  }
+
+  &:first-child {
+    margin-right: auto;
+  }
+
+  &--vertical {
+    flex-direction: column;
+    flex-basis: 47%;
+
+    .card__image {
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  &--horizontal {
+    flex-direction: row;
+    margin-bottom: 5rem;
+
+    .card__image {
+      margin-right: auto;
+      flex-basis: 47%;
+
+      @include m.respond(phone) {
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    .card__details {
+      flex-basis: 47%;
+    }
+
+    @include m.respond(phone) {
+      flex-direction: column;
+    }
+  }
+
+  @include m.respond(phone) {
+    margin-bottom: 5rem;
+  }
+}

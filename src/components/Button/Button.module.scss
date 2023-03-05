@@ -1,0 +1,29 @@
+.button {
+  display: block;
+  max-width: 22rem;
+  font-size: 1.7rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  text-align: center;
+  transition: 0.2s ease all;
+
+  &__ghost {
+    color: hsl(var(--color-primary-700));
+    border: 1px solid hsl(var(--color-primary-700));
+    background-color: transparent;
+
+    &:hover {
+      background-color: hsl(var(--color-primary-700));
+      color: hsl(var(--color-white));
+    }
+  }
+
+  &__primary {
+    color: hsl(var(--color-white));
+    background-color: hsl(var(--color-primary-700));
+
+    &:hover {
+      background-color: hsl(var(--color-primary-800));
+    }
+  }
+}
