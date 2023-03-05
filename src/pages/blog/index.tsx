@@ -3,6 +3,7 @@ import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
 import PreviewCard from "@/src/components/PreviewCard";
 import { GetStaticProps } from "next";
+import { NextSeo } from "next-seo";
 import React from "react";
 
 interface BlogPageProps {
@@ -29,6 +30,14 @@ const Blog = ({ blogs }: BlogPageProps) => {
     .sort();
   return (
     <>
+      <NextSeo
+        title="Blogs"
+        description="My thoughts about hip hop topics, questions and general discussion."
+        openGraph={{
+          url: "https://www.hiphopseason.com/blog",
+        }}
+        canonical="https://www.hiphopseason.com/blog"
+      />
       <Header type="small" title="Blog" image="blog-header.jpg">
         <p className="lead">Thoughts about random things related to Hip Hop.</p>
       </Header>

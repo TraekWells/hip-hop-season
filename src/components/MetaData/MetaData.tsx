@@ -6,6 +6,7 @@ interface MetaDataProps {
   url: string;
   image: string;
   type?: string;
+  createdAt: string;
 }
 
 const MetaData = ({
@@ -14,6 +15,7 @@ const MetaData = ({
   url,
   image,
   type = "article",
+  createdAt,
 }: MetaDataProps) => {
   return (
     <NextSeo
@@ -24,6 +26,9 @@ const MetaData = ({
         url: url,
         title: title,
         description: description,
+        article: {
+          publishedTime: createdAt,
+        },
         images: [
           {
             url: image,

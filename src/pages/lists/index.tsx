@@ -3,6 +3,7 @@ import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
 import PreviewCard from "@/src/components/PreviewCard";
 import { GetStaticProps } from "next";
+import { NextSeo } from "next-seo";
 import React from "react";
 
 interface ListPageProps {
@@ -29,6 +30,14 @@ const Lists = ({ lists }: ListPageProps) => {
     .sort();
   return (
     <>
+      <NextSeo
+        title="Lists"
+        description="Everybody has their own hip hop music lists. Here are a few of mine."
+        openGraph={{
+          url: "https://www.hiphopseason.com/lists",
+        }}
+        canonical="https://www.hiphopseason.com/lists"
+      />
       <Header type="small" title="Lists" image="review-header.jpg">
         <p className="lead">
           Everybody has their own hip hop music lists. Here are a few of mine.

@@ -1,9 +1,18 @@
+import { NextSeo } from "next-seo";
 import React from "react";
 import Header from "../components/Header";
 
 const Contact = () => {
   return (
     <>
+      <NextSeo
+        title="Contact Me"
+        description="The best way to get a hold of me is through social media. Hit me up on Twitter or Instagram if you have a project you'd like me to review or just want to say what's up."
+        openGraph={{
+          url: "https://www.hiphopseason.com/contact-me",
+        }}
+        canonical="https://www.hiphopseason.com/contact-me"
+      />
       <Header type="small" title="Contact Me" image="contact-header.jpg" />
       <section className="post">
         <div className="container">

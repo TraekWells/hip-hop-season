@@ -35,6 +35,10 @@ const Reviews = ({ reviews }: ReviewPageProps) => {
       <NextSeo
         title="Reviews"
         description="Hip hop album reviews for underground projects."
+        openGraph={{
+          url: "https://www.hiphopseason.com/reviews",
+        }}
+        canonical="https://www.hiphopseason.com/reviews"
       />
       <Header type="small" title="Reviews" image="review-header.jpg">
         <p className="lead">

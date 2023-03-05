@@ -10,6 +10,7 @@ import useFormatDate from "@/src/hooks/useFormatDate";
 import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import MetaData from "@/src/components/MetaData";
+import { useRouter } from "next/router";
 interface PostProps {
   code: string;
   frontmatter: any;
@@ -46,6 +47,7 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ code, frontmatter, reviews }: PostProps) => {
+  const route = useRouter();
   const [moreReviews, setMoreReviews] = React.useState<SetStateAction<any>>([]);
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
 
@@ -65,9 +67,10 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
       <MetaData
         title={frontmatter.title}
         description={frontmatter.bottomLine}
-        image={frontmatter.image}
+        image={`https://www.hiphopseason.com/images/${frontmatter.image}`}
         type="article"
-        url="www.google.com"
+        url={`https://www.hiphopseason.com${route.asPath}`}
+        createdAt={frontmatter.createdAt}
       />
       <Header
         type="small"

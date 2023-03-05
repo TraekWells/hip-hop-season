@@ -8,6 +8,8 @@ import AboutMeSnippet from "@/src/components/AboutMeSnippet";
 import useFormatDate from "@/src/hooks/useFormatDate";
 import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
+import MetaData from "@/src/components/MetaData";
+import { useRouter } from "next/router";
 
 interface ListProps {
   params: any;
@@ -38,6 +40,7 @@ export async function getStaticPaths() {
 }
 
 const Post = ({ code, frontmatter, lists }: any) => {
+  const route = useRouter();
   const [moreLists, setMoreLists] = React.useState<SetStateAction<any>>([]);
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
 
@@ -52,6 +55,14 @@ const Post = ({ code, frontmatter, lists }: any) => {
   }, [lists, frontmatter.title]);
   return (
     <>
+      <MetaData
+        title={frontmatter.title}
+        description={frontmatter.summary}
+        image={`https://www.hiphopseason.com/images/${frontmatter.image}`}
+        type="article"
+        url={`https://www.hiphopseason.com${route.asPath}`}
+        createdAt={frontmatter.createdAt}
+      />
       <Header
         type="small"
         title={frontmatter.title}
