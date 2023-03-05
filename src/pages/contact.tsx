@@ -34,8 +34,8 @@ const Contact = () => {
             >
               Instagram
             </a>{" "}
-            if you have a project you'd like me to review or just want to say
-            what's up.
+            if you have a project you&lsquo;d like me to review or just want to
+            say what&lsquo;s up.
           </p>
         </div>
       </section>

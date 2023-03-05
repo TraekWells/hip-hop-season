@@ -16,10 +16,10 @@ const AboutMeSnippet = () => {
       <div className={styles["about-the-author__bio"]}>
         <h4>About the author</h4>
         <p>
-          I'm not music expert but I know what good hip hop sounds like. I'm
-          just a dude who loves music and feels that non-mainstream hip hop is
-          under-represented and under-appreciated. All thoughts and opinions are
-          my own but I'd love to discuss.
+          I&lsquo;m not music expert but I know what good hip hop sounds like.
+          I&lsquo;m just a dude who loves music and feels that non-mainstream
+          hip hop is under-represented and under-appreciated. All thoughts and
+          opinions are my own but I&lsquo;d love to discuss.
         </p>
         <a
           className={styles["about-the-author__link"]}

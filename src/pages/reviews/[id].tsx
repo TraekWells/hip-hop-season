@@ -104,8 +104,8 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
             title={frontmatter.title}
           />
           <p className="text-centered">
-            How would you rate this project? Have an album or mixtape you'd like
-            me to review? Let me know on{" "}
+            How would you rate this project? Have an album or mixtape
+            you&lsquo;d like me to review? Let me know on{" "}
             <a
               href="https://twitter.com/ItsHipHopSeason"
               target="_blank"
@@ -121,7 +121,7 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
             >
               Instagram
             </a>{" "}
-            and I'll add it to my list.
+            and I&lsquo;ll add it to my list.
           </p>
         </div>
       </section>

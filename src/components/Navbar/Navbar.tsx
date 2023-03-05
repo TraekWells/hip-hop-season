@@ -77,6 +77,7 @@ const Navbar = () => {
             <a
               className={styles["nav__social-link"]}
               target="_blank"
+              rel="noreferrer"
               href="https://twitter.com/ItsHipHopSeason"
             >
               <Twitter />
@@ -84,6 +85,7 @@ const Navbar = () => {
             <a
               className={styles["nav__social-link"]}
               target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/itshiphopseason/"
             >
               <Instagram />
