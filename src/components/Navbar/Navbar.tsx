@@ -2,19 +2,26 @@ import React from "react";
 import Logo from "../Logo";
 import Link from "next/link";
 import styles from "./Navbar.module.scss";
+import { Twitter, Instagram } from "react-feather";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
+  const route = useRouter();
   const [scrollPosition, setScrollPosition] = React.useState<number | null>(0);
   const [isScrolled, setIsScrolled] = React.useState(false);
+  const [mobileMenuActive, setMobileMenuActive] = React.useState(false);
   const navRef = React.useRef<HTMLElement | null>(null);
 
   React.useEffect(() => {
-    const navHeight = navRef.current?.clientHeight;
+    setMobileMenuActive(false);
+  }, [route.asPath]);
 
+  React.useEffect(() => {
+    const navHeight = navRef.current?.clientHeight;
     const handleScroll = () => {
       setScrollPosition(window.scrollY);
       if (navHeight && scrollPosition) {
-        if (scrollPosition > navHeight || scrollPosition === 0) {
+        if (scrollPosition >= navHeight || scrollPosition === 0) {
           setIsScrolled(true);
         } else {
           setIsScrolled(false);
@@ -28,6 +35,10 @@ const Navbar = () => {
     };
   }, [scrollPosition]);
 
+  const toggleNavMenu = () => {
+    setMobileMenuActive(!mobileMenuActive);
+  };
+
   return (
     <nav
       className={`${styles["nav"]} ${isScrolled ? styles["scrolled"] : ""}`}
@@ -37,7 +48,11 @@ const Navbar = () => {
         <Link href="/" className={styles["nav__logo"]}>
           <Logo />
         </Link>
-        <ul className={styles["nav__list"]}>
+        <ul
+          className={`${styles["nav__list"]} ${
+            mobileMenuActive ? styles["active"] : ""
+          }`}
+        >
           <li className={styles["nav__item"]}>
             <Link href="/reviews" className={styles["nav__link"]}>
               Reviews
@@ -59,15 +74,28 @@ const Navbar = () => {
             </Link>
           </li>
           <div className={styles["nav__social"]}>
-            <a className={styles["nav__social-link"]} target="_blank">
-              <p>Twitter Icon</p>
+            <a
+              className={styles["nav__social-link"]}
+              target="_blank"
+              href="https://twitter.com/ItsHipHopSeason"
+            >
+              <Twitter />
             </a>
-            <a className={styles["nav__social-link"]} target="_blank">
-              <p>Instagram Icon</p>
+            <a
+              className={styles["nav__social-link"]}
+              target="_blank"
+              href="https://www.instagram.com/itshiphopseason/"
+            >
+              <Instagram />
             </a>
           </div>
         </ul>
-        <div className={styles["nav__burger"]}>
+        <div
+          className={`${styles["nav__burger"]} ${
+            mobileMenuActive ? styles["active"] : ""
+          }`}
+          onClick={toggleNavMenu}
+        >
           <span></span>
           <span></span>
           <span></span>
