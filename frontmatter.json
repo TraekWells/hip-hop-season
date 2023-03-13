@@ -1,0 +1,204 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "blog",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft",
+          "default": true
+        },
+        {
+          "title": "Featured Post?",
+          "name": "featured",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "createdAt",
+          "name": "createdAt",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "name": "list",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft",
+          "default": true
+        },
+        {
+          "title": "Featured List?",
+          "name": "featured",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "createdAt",
+          "name": "createdAt",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "name": "review",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Artist",
+          "name": "artist",
+          "type": "string"
+        },
+        {
+          "title": "Bottom Line",
+          "name": "bottomLine",
+          "type": "string"
+        },
+        {
+          "title": "Final Thoughts",
+          "name": "finalThoughts",
+          "type": "string"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "Rating",
+          "name": "rating",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "Lyrics",
+              "name": "lyrics",
+              "type": "number"
+            },
+            {
+              "title": "Production",
+              "name": "production",
+              "type": "number"
+            },
+            {
+              "title": "ReplayValue",
+              "name": "replayValue",
+              "type": "number"
+            },
+            {
+              "title": "Variety",
+              "name": "variety",
+              "type": "number"
+            }
+          ]
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft",
+          "default": true
+        },
+        {
+          "title": "Featured Review?",
+          "name": "featured",
+          "type": "boolean",
+          "default": false
+        },
+        {
+          "title": "createdAt",
+          "name": "createdAt",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "next",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.content.defaultFileType": "mdx",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Blog",
+      "path": "[[workspace]]/src/posts/blog",
+      "originalPath": "[[workspace]]/src/posts/blog"
+    },
+    {
+      "title": "Lists",
+      "path": "[[workspace]]/src/posts/lists",
+      "originalPath": "[[workspace]]/src/posts/lists"
+    },
+    {
+      "title": "Reviews",
+      "path": "[[workspace]]/src/posts/reviews"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [],
+  "frontMatter.taxonomy.categories": []
+}
