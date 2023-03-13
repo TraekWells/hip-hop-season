@@ -58,7 +58,7 @@ export default function Home({ blogs, reviews }: HomepageProps) {
       <Header
         type="large"
         title="Welcome to Hip Hop Season"
-        image="homepage-hero-image.jpg"
+        image="/images/homepage-hero-image.jpg"
       >
         <p className="lead mt-4">
           Your home for <span className="underline">underground</span> Hip-Hop
