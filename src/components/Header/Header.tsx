@@ -19,7 +19,7 @@ const Header = ({
   artist,
   image,
 }: HeaderProps) => {
-  const background = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/${image}`;
+  const background = `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${image}`;
   if (type === "large") {
     return (
       <header

@@ -21,7 +21,7 @@ const Rating = ({
   return (
     <div className={`${styles["rating"]}`}>
       <div className={styles["rating__image"]}>
-        <img src={`/images/${image}`} alt={`Album cover for ${title}`} />
+        <img src={`${image}`} alt={`Album cover for ${title}`} />
       </div>
       <div className={styles["rating__overall"]}>
         <p className={styles["rating__score"]}>

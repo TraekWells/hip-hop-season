@@ -34,7 +34,7 @@ const PreviewCard = ({ orientation, post }: PreviewCardProps) => {
   return (
     <article className={`${styles["card"]} ${styles[`card--${orientation}`]}`}>
       <div className={styles["card__image"]}>
-        <Image src={`/images/${image}`} alt={title} width={400} height={275} />
+        <Image src={`${image}`} alt={title} width={400} height={275} />
       </div>
       <div className={styles["card__details"]}>
         <Link href={slug}>
