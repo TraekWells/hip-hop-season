@@ -38,7 +38,7 @@ const Blog = ({ blogs }: BlogPageProps) => {
         }}
         canonical="https://www.hiphopseason.com/blog"
       />
-      <Header type="small" title="Blog" image="blog-header.jpg">
+      <Header type="small" title="Blog" image="/images/blog-header.jpg">
         <p className="lead">Thoughts about random things related to Hip Hop.</p>
       </Header>
       <section>

@@ -13,7 +13,11 @@ const Contact = () => {
         }}
         canonical="https://www.hiphopseason.com/contact-me"
       />
-      <Header type="small" title="Contact Me" image="contact-header.jpg" />
+      <Header
+        type="small"
+        title="Contact Me"
+        image="/images/contact-header.jpg"
+      />
       <section className="post">
         <div className="container">
           <p>

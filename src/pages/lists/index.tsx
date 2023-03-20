@@ -38,7 +38,7 @@ const Lists = ({ lists }: ListPageProps) => {
         }}
         canonical="https://www.hiphopseason.com/lists"
       />
-      <Header type="small" title="Lists" image="review-header.jpg">
+      <Header type="small" title="Lists" image="/images/review-header.jpg">
         <p className="lead">
           Everybody has their own hip hop music lists. Here are a few of mine.
         </p>
