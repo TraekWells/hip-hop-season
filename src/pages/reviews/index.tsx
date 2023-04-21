@@ -40,7 +40,7 @@ const Reviews = ({ reviews }: ReviewPageProps) => {
         }}
         canonical="https://www.hiphopseason.com/reviews"
       />
-      <Header type="small" title="Reviews" image="review-header.jpg">
+      <Header type="small" title="Reviews" image="/images/review-header.jpg">
         <p className="lead">
           My thoughts and opinions about different albums and mixtapes.
         </p>
