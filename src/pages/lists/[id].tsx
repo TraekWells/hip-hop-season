@@ -10,10 +10,7 @@ import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import MetaData from "@/src/components/MetaData";
 import { useRouter } from "next/router";
-
-interface ListProps {
-  params: any;
-}
+import { ListProps } from "@/src/types/ListProps";
 
 export async function getStaticProps({ params }: any) {
   let list = await getListPostData(params.id);
@@ -41,7 +38,9 @@ export async function getStaticPaths() {
 
 const Post = ({ code, frontmatter, lists }: any) => {
   const route = useRouter();
-  const [moreLists, setMoreLists] = React.useState<SetStateAction<any>>([]);
+  const [moreLists, setMoreLists] = React.useState<SetStateAction<Array<{}>>>(
+    []
+  );
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
 
   React.useEffect(() => {

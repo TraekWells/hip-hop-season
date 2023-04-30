@@ -1,13 +1,13 @@
 import { getBlogPostsData } from "@/lib/posts";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
-import PreviewCard from "@/src/components/PreviewCard";
+import PreviewCard, { PreviewCardType } from "@/src/components/PreviewCard";
 import { GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
 import React from "react";
 
 interface BlogPageProps {
-  blogs: Array<any>;
+  blogs: Array<PreviewCardType>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {

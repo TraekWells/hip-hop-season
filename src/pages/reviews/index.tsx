@@ -1,12 +1,12 @@
 import { getReviewPostsData } from "@/lib/posts";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import Header from "@/src/components/Header";
-import PreviewCard from "@/src/components/PreviewCard";
+import PreviewCard, { PreviewCardType } from "@/src/components/PreviewCard";
 import { GetStaticProps } from "next";
 import { NextSeo } from "next-seo";
 
 interface ReviewPageProps {
-  reviews: Array<any>;
+  reviews: Array<PreviewCardType>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -53,13 +53,10 @@ const Reviews = ({ reviews }: ReviewPageProps) => {
       <section>
         <div className="container">
           <h2>All Reviews</h2>
-          {latestReviews.map((review) => {
+          {latestReviews.map((review, index) => {
+            console.log(review);
             return (
-              <PreviewCard
-                orientation="horizontal"
-                key={review.params.id}
-                post={review}
-              />
+              <PreviewCard orientation="horizontal" key={index} post={review} />
             );
           })}
         </div>

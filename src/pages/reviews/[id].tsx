@@ -11,14 +11,11 @@ import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import MetaData from "@/src/components/MetaData";
 import { useRouter } from "next/router";
+import { ReviewProps } from "@/src/types/ReviewProps";
 interface PostProps {
   code: string;
   frontmatter: any;
   reviews: ReviewProps[];
-}
-
-interface ReviewProps {
-  params: any;
 }
 
 export async function getStaticProps({ params }: any) {

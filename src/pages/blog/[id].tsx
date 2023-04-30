@@ -10,10 +10,7 @@ import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import MetaData from "@/src/components/MetaData";
 import { useRouter } from "next/router";
-
-interface BlogProps {
-  params: any;
-}
+import { BlogProps } from "@/src/types/BlogProps";
 
 export async function getStaticProps({ params }: any) {
   let blog = await getBlogPostData(params.id);
@@ -40,7 +37,9 @@ export async function getStaticPaths() {
 
 const Post = ({ code, frontmatter, blogs }: any) => {
   const route = useRouter();
-  const [morePosts, setMorePosts] = React.useState<SetStateAction<any>>([]);
+  const [morePosts, setMorePosts] = React.useState<SetStateAction<Array<{}>>>(
+    []
+  );
   const Component = React.useMemo(() => getMDXComponent(code), [code]);
 
   React.useEffect(() => {

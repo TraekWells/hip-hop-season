@@ -1,18 +1,17 @@
 import { GetStaticProps } from "next";
-import Head from "next/head";
 import Button from "../components/Button";
 import ButtonGroup from "../components/ButtonGroup";
 import Header from "../components/Header";
 import LinkWithIcon from "../components/LinkWithIcon";
 import { getBlogPostsData, getReviewPostsData } from "@/lib/posts";
-import PreviewCard from "../components/PreviewCard";
+import PreviewCard, { PreviewCardType } from "../components/PreviewCard";
 import FeaturedPosts from "../components/FeaturedPosts";
 import { NextSeo } from "next-seo";
 
 interface HomepageProps {
   // I don't want this to be 'any' but I don't know how else to fix it
-  blogs: Array<any>;
-  reviews: Array<any>;
+  blogs: Array<PreviewCardType>;
+  reviews: Array<PreviewCardType>;
 }
 
 export const getStaticProps: GetStaticProps = async () => {
