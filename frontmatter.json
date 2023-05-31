@@ -187,16 +187,17 @@
     {
       "title": "Blog",
       "path": "[[workspace]]/src/posts/blog",
-      "originalPath": "[[workspace]]/src/posts/blog"
+      "filePrefix": null
     },
     {
       "title": "Lists",
       "path": "[[workspace]]/src/posts/lists",
-      "originalPath": "[[workspace]]/src/posts/lists"
+      "filePrefix": null
     },
     {
       "title": "Reviews",
-      "path": "[[workspace]]/src/posts/reviews"
+      "path": "[[workspace]]/src/posts/reviews",
+      "filePrefix": null
     }
   ],
   "frontMatter.taxonomy.tags": [],
