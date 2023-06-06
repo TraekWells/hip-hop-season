@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "./AudioEmbed.module.scss";
 interface AudioEmbedProps {
   src: string;
 }
@@ -7,6 +7,7 @@ interface AudioEmbedProps {
 const AudioEmbed = ({ src }: AudioEmbedProps) => {
   return (
     <iframe
+      className={styles["audio-container"]}
       src={src}
       width="100%"
       height="152"
