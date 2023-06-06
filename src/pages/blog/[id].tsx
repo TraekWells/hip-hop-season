@@ -10,6 +10,7 @@ import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import MetaData from "@/src/components/MetaData";
 import { useRouter } from "next/router";
+import AudioEmbed from "@/src/components/AudioEmbed";
 
 interface BlogProps {
   params: any;
@@ -57,7 +58,7 @@ const Post = ({ code, frontmatter, blogs }: any) => {
       <MetaData
         title={frontmatter.title}
         description={frontmatter.summary}
-        image={`https://www.hiphopseason.com/images/${frontmatter.image}`}
+        image={`https://www.hiphopseason.com${frontmatter.image}`}
         type="article"
         url={`https://www.hiphopseason.com${route.asPath}`}
         createdAt={frontmatter.createdAt}
@@ -78,6 +79,7 @@ const Post = ({ code, frontmatter, blogs }: any) => {
             components={{
               Quote,
               VideoEmbed,
+              AudioEmbed,
             }}
           />
         </div>

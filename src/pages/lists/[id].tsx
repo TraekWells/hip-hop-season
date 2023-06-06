@@ -58,7 +58,7 @@ const Post = ({ code, frontmatter, lists }: any) => {
       <MetaData
         title={frontmatter.title}
         description={frontmatter.summary}
-        image={`https://www.hiphopseason.com/images/${frontmatter.image}`}
+        image={`https://www.hiphopseason.com${frontmatter.image}`}
         type="article"
         url={`https://www.hiphopseason.com${route.asPath}`}
         createdAt={frontmatter.createdAt}
