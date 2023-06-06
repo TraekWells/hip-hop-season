@@ -7,6 +7,14 @@ const SEO: DefaultSeoProps = {
     locale: "en_IE",
     url: "https://www.hiphopseason.com/",
     siteName: "Hip Hop Season",
+    images: [
+      {
+        url: "/images/default-card-img.jpg",
+        width: 800,
+        height: 600,
+        alt: "Hip Hop Season",
+      },
+    ],
   },
   twitter: {
     handle: "@ItsHipHopSeason",

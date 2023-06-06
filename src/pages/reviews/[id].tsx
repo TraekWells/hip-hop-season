@@ -67,7 +67,7 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
       <MetaData
         title={frontmatter.title}
         description={frontmatter.bottomLine}
-        image={`https://www.hiphopseason.com/images/${frontmatter.image}`}
+        image={`https://www.hiphopseason.com${frontmatter.image}`}
         type="article"
         url={`https://www.hiphopseason.com${route.asPath}`}
         createdAt={frontmatter.createdAt}
