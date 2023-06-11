@@ -69,8 +69,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles["nav__item"]}>
-            <Link href="/contact" className={styles["nav__link"]}>
-              Contact Me
+            <Link
+              href="/blog/hip-hop-terminology"
+              className={styles["nav__link"]}
+            >
+              Terminology
             </Link>
           </li>
           <div className={styles["nav__social"]}>

@@ -1,7 +1,7 @@
 import styles from "./Quote.module.scss";
 
 interface QuoteProps {
-  song?: string;
+  song: string;
   children: React.ReactNode;
 }
 
