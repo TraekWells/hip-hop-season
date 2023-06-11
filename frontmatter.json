@@ -41,6 +41,13 @@
           "isPublishDate": true
         },
         {
+          "title": "updatedAt",
+          "name": "updatedAt",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": false
+        },
+        {
           "title": "type",
           "name": "type",
           "type": "string",
