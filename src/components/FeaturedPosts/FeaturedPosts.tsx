@@ -1,7 +1,11 @@
 import styles from "./FeaturedPosts.module.scss";
 import PreviewCard, { PreviewCardType } from "../PreviewCard";
 
-const FeaturedPosts = ({ posts }: any) => {
+type FeaturedPostsProps = {
+  posts: PreviewCardType[];
+};
+
+const FeaturedPosts = ({ posts }: FeaturedPostsProps) => {
   return (
     <div className={styles["featured-container"]}>
       {posts.map((post: PreviewCardType) => {
