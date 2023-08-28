@@ -1,5 +1,7 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.startCommand": "npm run dev",
+  "frontMatter.preview.host": "localhost:3000",
   "frontMatter.taxonomy.contentTypes": [
     {
       "name": "blog",
@@ -19,7 +21,8 @@
         {
           "title": "Image",
           "name": "image",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "Is in draft",
@@ -73,7 +76,8 @@
         {
           "title": "Image",
           "name": "image",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "Is in draft",
@@ -130,7 +134,8 @@
         {
           "title": "Image",
           "name": "image",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "Rating",
