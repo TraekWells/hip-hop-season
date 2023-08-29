@@ -11,6 +11,7 @@ import Button from "@/src/components/Button";
 import FeaturedPosts from "@/src/components/FeaturedPosts";
 import MetaData from "@/src/components/MetaData";
 import { useRouter } from "next/router";
+import AudioEmbed from "@/src/components/AudioEmbed";
 interface PostProps {
   code: string;
   frontmatter: any;
@@ -91,6 +92,7 @@ const Post = ({ code, frontmatter, reviews }: PostProps) => {
             components={{
               Quote,
               VideoEmbed,
+              AudioEmbed,
             }}
           />
           <h2>Final Thoughts</h2>

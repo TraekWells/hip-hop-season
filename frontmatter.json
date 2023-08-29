@@ -153,7 +153,7 @@
               "type": "number"
             },
             {
-              "title": "ReplayValue",
+              "title": "Replay Value",
               "name": "replayValue",
               "type": "number"
             },
@@ -177,7 +177,7 @@
           "default": false
         },
         {
-          "title": "createdAt",
+          "title": "Created",
           "name": "createdAt",
           "type": "datetime",
           "default": "{{now}}",
