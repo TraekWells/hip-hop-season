@@ -1,9 +1,8 @@
 @use "../../styles/mixins" as m;
 
 .featured-container {
-  display: flex;
+  display: grid;
   margin-bottom: 4rem;
-  @include m.respond(phone) {
-    flex-direction: column;
-  }
+  gap: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }

@@ -1,17 +1,5 @@
 @use "../../styles/mixins" as m;
 
-.card-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.featured-container {
-  display: flex;
-  @include m.respond(phone) {
-    flex-direction: column;
-  }
-}
-
 .card {
   display: flex;
 
@@ -65,7 +53,7 @@
 
   &--vertical {
     flex-direction: column;
-    flex-basis: 47%;
+    flex-basis: 40%;
 
     .card__image {
       margin-bottom: 2.5rem;
@@ -78,7 +66,7 @@
 
     .card__image {
       margin-right: auto;
-      flex-basis: 47%;
+      flex-basis: 40%;
 
       @include m.respond(phone) {
         margin-bottom: 2.5rem;
@@ -86,15 +74,11 @@
     }
 
     .card__details {
-      flex-basis: 47%;
+      flex-basis: 55%;
     }
 
     @include m.respond(phone) {
       flex-direction: column;
     }
-  }
-
-  @include m.respond(phone) {
-    margin-bottom: 5rem;
   }
 }
